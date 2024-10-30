@@ -1,0 +1,38 @@
+
+/* --------- CONTA-ASSOCIADO ---------- */
+.conta-associado{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- TEXT-ASSOCIADO ------ */
+.text-associado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 64vw;
+    margin: 0 auto;
+
+}
+
+/* H2 */
+.text-associado h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+    font-family: var(--exo);
+    color: var(--green);
+}
+
+/* P */
+.text-associado p{
+    font-family: var(--nunito);
+    font-size: 16px;
+    color: var(--black);
+}
+
+

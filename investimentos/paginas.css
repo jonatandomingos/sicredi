@@ -1,0 +1,73 @@
+
+
+
+
+
+
+
+/* ---------- PAGINAS --------- */
+.paginas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    background-color: white;
+}
+
+/* --- PG-INICIAL ------ */
+.pg-inicial{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* A */
+.pg-inicial a{
+    text-decoration: none;
+    color: var(--green);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: var(--nunito);
+    position: relative;
+
+    transition: all .3s;
+}
+
+/* --- AFTTER */
+.pg-inicial a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: var(--green);
+}
+
+/* HOVER (AFTER) */
+.pg-inicial  a:hover::after{
+    width: 100%;
+}
+
+/* P */
+.pg-inicial p{
+    font-size: 14px;
+    padding-top: 10px;
+    color: #5A645A;
+    font-family: var(--nunito);
+    font-weight: 400;
+}
+
+.atendis-a{
+    display: flex;
+    gap: 20px;
+}
+
+.atendis-a a{
+    text-decoration: none;
+    color: #5A645A;
+    font-weight: 700;
+    font-family: var(--nunito);
+}

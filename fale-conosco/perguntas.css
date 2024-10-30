@@ -1,0 +1,98 @@
+
+/* ------- PERGUNTAS -------- */
+.perguntas{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+    padding-left: 50px;
+
+}
+
+/* ---- TEXT-PERGUNTAS ---- */
+.text-perguntas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+/* SPAN */
+.text-perguntas span{
+    font-size: 12px;
+    font-family: var(--nunito);
+    font-weight: 600;
+    color: var(--black);
+}
+
+/* H2 */
+.text-perguntas h2{
+    font-style: italic !important;
+    font-weight: 400 !important;
+    font-family: var(--exo) !important;
+    font-size: 2.5rem !important;
+    line-height: 3rem !important;
+}
+
+/* P */
+.text-perguntas p{
+    font-size: 16px;
+    font-family: var(--nunito);
+    color: var(--black);
+    font-weight: 300;
+}
+
+/* ---- CONTAINER-PERGUNTAS ---- */
+.container-perguntas{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ---- FILTRAR ---- */
+.filtrar{
+    display: flex;
+}
+
+/* SPAN */
+.filtrar span{
+    font-size: 12px;
+    font-family: var(--nunito);
+    font-weight: 600;
+    color: var(--black);
+}
+
+/* -----  BTN-PERGUNTAS ------ */
+.btns-perguntas{
+    display: flex;
+    gap: 20px;
+}
+
+/* BUTTON */
+.btns-perguntas button{
+    padding: 8px 24px;
+    border: none;
+    outline: none;
+    background-color: #D7E6C8;
+    border-radius: 4px;
+
+    font-family: var(--nunito);
+
+    font-size: 16px;
+    color: var(--black);
+    font-weight: 800;
+}
+
+/* ---- COR-BTN ---- */
+.cor-btn button{
+    color: var(--black);
+    font-weight: 300;
+    background-color: white;
+    border: 1px solid #CDD3CD;
+}
+
+/* LINHA 2 (BTN-PERGUNTA1) */
+.btns-perguntas1{
+    margin-top: 20px;
+}
+
+

@@ -1,0 +1,45 @@
+
+
+
+
+/* --------- HEADERS-ATENDI -------- */
+.header-atendi{
+    display: flex;
+
+    background-color: white;
+    justify-content: space-between;
+    padding: 20px 50px;
+    margin-inline: 50px;
+    border-bottom: 1px solid #E1E6E1;
+}
+
+/* ---- ATENDI-A ------ */
+.atendi-a{
+    display: flex;
+}
+
+/* A */
+.atendi-a a{
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--black);
+    font-family: var(--exo);
+}
+
+/* --- ATENDIS-A ----- */
+.atendis-a{
+    display: flex;
+    gap: 20px;
+}
+
+/* A */
+.atendis-a a{
+    text-decoration: none;
+    color: #5A645A;
+    font-family: var(--nunito);
+    font-weight: 700;
+}
+
+
+
+

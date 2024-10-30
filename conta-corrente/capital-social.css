@@ -1,0 +1,84 @@
+
+/* -------- CAPITAL-SOCIAL --------- */
+.capital-social{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(245, 245, 245); */
+
+    padding-bottom: 50px;
+
+}
+
+/* ----- CONTAINER-SOCIAL ---- */
+.container-social{
+    display: flex;
+    height: 300px;
+    margin: 0px 50px;
+    border-radius: 5px;
+
+
+}
+
+/* ---- IMG-SOCIAL ---- */
+.img-social{
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+
+
+/* ----- TEXT-SOCIAL ----- */
+.text-social{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+
+    background-color: rgb(245, 245, 245);
+
+}
+
+/* STRONG */
+.text-social strong{
+    font-size: 1.25rem !important;
+    font-family: var(--exo);
+}
+
+/* H3 */
+.text-social h3{
+    color: #5A645A;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--exo);
+    letter-spacing: 1px;
+}
+
+/* ---- BTN-SABER ---- */
+.btn-saber{
+    display: flex;
+}
+
+/* A */
+.btn-saber a{
+    text-decoration: none;
+}
+
+/* BUTTON */
+.btn-saber button{
+    border: none;
+    padding: 12px 83px;
+    border-radius: 8px;
+    background-color: var(--green);
+
+    color: white;
+    font-weight: 500;
+
+    transition: all .2s;
+}
+
+/* HOVER */
+.btn-saber button:hover{
+    background-color: green;
+}
+

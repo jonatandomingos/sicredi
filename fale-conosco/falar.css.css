@@ -1,0 +1,46 @@
+
+/* -------- FALAR ------ */
+.falar{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/*----- TEXT-FALAR ---- */
+.text-falar{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+
+/* H2 */
+.text-falar h2{
+    font-size: 3rem;
+    font-family: var(--exo);
+    font-weight: 400;
+
+    padding-bottom: 30px;
+    
+}
+
+/* P */
+.text-falar p{
+    font-size: 18px;
+    color: var(--black);
+    font-family: var(--nunito);
+}
+
+
+/* A */
+.text-falar a{
+    text-decoration: none;
+    color: var(--green);
+}
+
+/* HOVER */
+.text-falar a:hover{
+    text-decoration: underline;
+}
+
+

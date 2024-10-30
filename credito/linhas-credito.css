@@ -1,0 +1,119 @@
+
+/* ----------------- LINHAS-CREDITO --------------------- */
+.linhas-credito{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+
+/* ---- TEXT-LINHAS ---- */
+.text-linhas{
+    display: flex;
+    padding-left: 50px;
+}
+
+/* H2 */
+.text-linhas h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 3rem;
+    font-style: normal;
+}
+
+/* ---- CONTAINER-LINHAS ----- */
+.container-linhas{
+    display: flex;
+    gap: 20px;
+    margin: 20px 50px;
+    height: 500px;
+}
+
+/* ---- ITENS-LINHAS ---- */
+.itens-linhas{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+    background-color: rgb(248, 249, 247);
+    border-radius: 6px;
+
+    position: relative;
+}
+
+/* A */
+.itens-linhas a{
+    text-decoration: none;
+}
+
+/* ---- IMG-LINHAS ---- */
+.img-linhas{
+    display: flex;
+}
+
+/* IMG */
+.img-linhas img{
+    width: 300px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+
+}
+
+/* ---- TEXT-LINHAS ---- */
+.texts-linhas{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* H2 */
+.texts-linhas h2{
+    font-size: 1.5rem;
+    font-family: var(--exo);
+    color: var(--black);
+}
+
+/* P */
+.texts-linhas p{
+    color: #5A645A !important;
+    font-family: var(--nunito);
+    font-weight: 400;
+}
+
+/* ---- LINK-ACESSANDO ---- */
+.link-acessando{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    position: absolute;
+
+    bottom: 20px;
+    left: 20px;
+}
+
+/* A */
+.link-acessando a{
+    text-decoration: none;
+    color: var(--green2);
+    position: relative;
+    transition: all .3s;
+}
+/* AFTER */
+.link-acessando a::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 1px;
+    background-color: var(--green2);
+}
+
+/* HOVER (AFTER) */
+.link-acessando a:hover::after{
+    width: 100%;
+}
+

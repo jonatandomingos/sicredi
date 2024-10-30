@@ -1,0 +1,48 @@
+
+/* ---------- FORMAS-ATENDER --------- */
+.formas-atender{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 50px;
+
+}
+
+/* ---- NAMES ---- */
+.names{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* H4 */
+.names h4{
+    font-size: 1.25rem;
+    font-family: var(--exo);
+    font-weight: 400;
+}
+
+/* P */
+.names p{
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+/* ---- DESCRIPPITION ----- */
+.descripition{
+    display: flex;
+    justify-content: center;
+}
+
+/* P */
+.descripition p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--gray);
+    font-family: var(--exo);
+    width: 80%;
+    text-align: center;
+}
+

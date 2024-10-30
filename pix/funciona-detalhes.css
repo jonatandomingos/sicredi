@@ -1,0 +1,84 @@
+
+
+/* -------- FUNCIONA-DETALHES -------- */
+.funciona-detalhes{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- TEXT-DETALHES ----- */
+.text-detahes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 50px;
+}
+
+/* H2 */
+.text-detahes h2{
+    font-family: var(--exo);
+    font-size: 2.5rem;
+    font-weight: 400;
+
+}
+
+/* P */
+.text-detahes p{
+    font-family: var(--nunito);
+    font-size: 1rem;
+}
+
+/* ---- CONTAINER-DETALHES ------- */
+.container-detalhes{
+    display: flex;
+    flex-direction: column;
+}
+
+/*  */
+
+/* ---- ITENS-DETAHES ------ */
+.itens-detalhes{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-top: 1px solid #CDD3CD !important;
+    border-bottom: 1px solid #CDD3CD !important;
+    padding: 40px;
+
+    margin: 0px 50px;
+}
+
+/* --- TEXT-MOSTRAR ---- */
+.text-mostrar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding-top: 50px;
+}
+
+/* ---- MOSTRAR ----- */
+.mostra summary{
+    font-family: var(--exo);
+}
+/* HOVER */
+.mostra summary:hover{
+    color: var(--green);
+}
+
+/* ---- TEXT-MOSTRAR (SPAN) */
+.text-mostrar span{
+    height: 2px;
+    width: 100px;
+    background-color: var(--green);
+}
+
+/* A */
+.text-mostrar a{
+    text-decoration: none;
+    color: var(--green);
+}
+
+

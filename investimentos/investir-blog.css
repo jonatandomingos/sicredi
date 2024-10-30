@@ -1,0 +1,182 @@
+
+/* ----------- INVESTIR-BLOG --------------- */
+.investir-blog{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 150px;
+}
+
+/* ---- TEXT-BLOG ------ */
+.text-blog{
+    display: flex;
+    padding-left: 50px;
+}
+
+/* H2 */
+.text-blog h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+/* ---- LINK-ACESSAR ------ */
+.link-acessar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    
+    margin-right: 50px;
+}
+
+/* A */
+.link-acessar a{
+    text-decoration: none;
+    color: var(--green2);
+    font-weight: 600;
+    font-family: var(--exo);
+
+    position: relative;
+    transition: all .3s ease-in-out;
+}
+
+/* AFTER */
+.link-acessar a::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 1px;
+    background-color: var(--green2);
+}
+
+/* HOVER (AFTER) */
+.link-acessar a:hover::after{
+    width: 100%;
+}
+
+/* ---- CONTAINER-BLOG ---- */
+.container-blog{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+    height: 400px;
+
+}
+
+/* ---- ITENS-BLOG ---- */
+.itens-blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 450px;
+    background-color: #F5F5F5 !important;
+    border-radius: 8px;
+    padding-bottom: 20px;
+}
+
+/* A */
+.itens-blog a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+/* ---- IMG-BLOG ---- */
+.img-blog{
+    display: flex;
+}
+
+/* IMG */
+.img-blog img{
+    width: 400px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* --- TEXT-DATA ---- */
+.text-data{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* SPAN */
+.text-data span{
+    background-color: var(--green2);
+    padding: 2px 4px;
+    border-radius: 4px;
+
+    font-family: var(--exo);
+    color: white;
+    font-weight: 400;
+}
+
+/* DATA  */
+.text-data .data{
+    background-color: transparent;
+    color: var(--gray);
+}
+
+/* ---- TEXTO ---- */
+.texto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+/* H3 */
+.texto h3{
+    font-size: 1.2rem;
+    font-family: var(--exo);
+    line-height: 1.5rem;
+}
+
+/* P */
+.texto p{
+    font-size: 16px;
+    font-family: var(--nunito);
+    color: #5A645A;
+    line-height: 24px;
+}
+
+/* ---- LINK-LENDO-MAIS ------ */
+.link-lendo-mais{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+/* A */
+.link-lendo-mais a{
+    text-decoration: none;
+    color: var(--green2);
+    font-weight: 500;
+    font-family: var(--exo);
+    position: relative;
+
+    transition: all .3s ease-in-out;
+}
+
+/* AFTER */
+.link-lendo-mais a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--green2);
+}
+
+/* HOVER (AFTER) */
+.link-lendo-mais a:hover::after{
+    width: 100%;
+}
+

@@ -1,0 +1,81 @@
+
+/* ----------- LOCALIZAR ---------- */
+.localizar{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding: 50px;
+}
+
+
+/* ---- CONTAINER-LOCALIZAR ------- */
+.container-localizar{
+    display: flex;
+    gap: 40px;
+
+}
+
+/* ---- ITENS-LOCALIZAR ------ */
+.itens-localizar{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+
+    width: 28vw;
+    border-radius: 4px;
+    background-color: white;
+
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.14);
+
+    transition: all .3s;
+
+    cursor: pointer;
+
+}
+
+/* A */
+.itens-localizar a{
+    text-decoration: none;
+}
+
+/* H3 */
+.itens-localizar h3{
+    font-size: 20px;
+    font-family: var(--exo);
+    font-weight: 400;
+    color: var(--black);
+}
+/* P */
+.itens-localizar p{
+    font-family: var(--nunito);
+    color: var(--black);
+    font-weight: 400;
+}
+
+/* P (HOVER) */
+.itens-localizar p:hover{
+    color: white;
+}
+
+/* HOVER */
+.itens-localizar:hover {
+    background-color: var(--green);
+}
+
+/* ---- DIREITA ------ */
+.direita{
+    position: absolute;
+    top: 20px;
+    left: 350px;
+}
+
+/* BUTTON */
+.direita button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}

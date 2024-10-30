@@ -1,0 +1,99 @@
+
+/* ------- DUVIDAS -------- */
+
+.duvidas{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- TITLE-DUVIDAS ------- */
+.title-duvidas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 50px;
+}
+
+/* H2 */
+.title-duvidas h2{
+    font-family: var(--exo);
+    color: var(--black);
+}
+
+/* P */
+.title-duvidas p{
+    font-family: var(--nunito);
+    color: var(--black);
+    font-weight: 300;
+}
+
+/* --- CARD-HEADER ----- */
+.card-header{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
+    padding: 50px;
+
+    border-top: 1px solid rgba(0, 0, 0, .125);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+
+ 
+}
+
+/* ---- BTN-DUVIDAS ------ */
+.btn-duvidas{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* BUTTON */
+.btn-duvidas button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+
+    transition: all .2s;
+
+}
+
+/* A */
+.btn-duvidas button a{
+    text-decoration: none;
+    color: var(--black);
+    font-family: var(--exo);
+
+    position: relative;
+}
+
+
+/* A (HOVER) */
+.btn-duvidas button a:hover{
+    color: var(--green);
+
+
+}
+
+/* AFTER (BUTTON) */
+.btn-duvidas button a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+
+    height: 2px;
+    background-color: var(--green);
+
+    transition: all .3s;
+
+}
+
+/* (BUTTON) AFTER */
+.btn-duvidas button a:hover::after{
+    width: 100%;
+}
+

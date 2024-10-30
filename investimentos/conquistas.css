@@ -1,0 +1,84 @@
+
+/* -------- CONQUISTAS --------- */
+.conquistas{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- CONTAINER-CONQUISTAS ------- */
+.container-conquistas{
+    display: flex;
+    gap: 50px;
+    margin-right: 100px;
+
+}
+
+/* ---- IMG-CONQUISTAS ---- */
+.img-conquistas{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    
+}
+
+/*---- TEXT-CONQUISTAS ------ */
+.text-conquistas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* H2 */
+.text-conquistas h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+}
+
+/* STRONG */
+.text-conquistas strong{
+    color: var(--green);
+    font-weight: 300;
+}
+
+/* P */
+.text-conquistas p{
+    color: var(--black);
+    font-family: var(--nunito);
+    font-size: 1rem;
+}
+/*---- LINK-LENDO ---- */
+.link-lendo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* A */
+.link-lendo a{
+    text-decoration: none;
+    color: var(--green2);
+    font-family: var(--nunito);
+    font-size: 1rem;
+
+    position: relative;
+
+    transition: all .2s ease-in-out;
+}
+
+/* AFTER */
+.link-lendo a::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--green2);
+}
+
+/* HOVER (AFTER) */
+.link-lendo a:hover::after{
+    width: 100%;
+}

@@ -1,0 +1,152 @@
+
+/* ----------- SERVICOS ---------*/
+.servicos {
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 100px;
+
+}
+
+/*------- CONTAINER-SERVICOS --------*/
+.containers-servicos{
+    display: flex;
+}
+
+
+/* --- CONTAINER-SERVICOS -------- */
+.container-servicos{
+    display: flex;
+    width: 100%;
+    height: 400px;
+
+    margin-left: 50px;
+}
+
+/* ---- TEXT-SERVICOS ----- */
+.text-servicos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    flex: 2;
+
+
+}
+
+/* P */
+.text-servicos p{
+    font-family: var(--nunito);
+    font-weight: 600;
+    color: var(--black);
+    font-size: 0.75rem;
+}
+
+/* H2 */
+.text-servicos h2{
+    font-family: var(--exo);
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+/* ---- CONTAINER-LINK --------- */
+.container-link{
+    display: flex;
+    gap: 80px;
+    /* padding-top: 50px; */
+}
+
+/* ------ LINK-SERVICOS ------- */
+.link-servicos{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+/*------ LINK-A ----- */
+.link-a{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+/* IMG */
+.link-a img{
+    width: 20px;
+    height: 20px;
+
+}
+
+/* A */
+.link-a a {
+    text-decoration: none;
+    color: var(--black);
+    font-style: normal;
+    font-weight: 400;
+    font-family: var(--exo);
+
+    position: relative;
+
+    transition: all .2s;
+}
+
+/* AFTER */
+.link-a a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 1px;
+    background-color: var(--green);
+
+}
+
+/* AFTER (HOVER) */
+.link-a a:hover::after{
+    width: 100%;
+}
+
+/* ---- IMG-SERVICOS ---- */
+.img-servicos{
+    flex: 1;
+    background-image: url(https://www.sicredi.com.br/media/home/filer_public_thumbnails/filer_public/2024/09/12/eliseu-video.jpg__592x710_subsampling-2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+/*----- PLAYS --- */
+.plays{
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    margin-left: 50px;
+
+    cursor: pointer;
+
+    transition: all .3s;
+}
+
+/* IMG */
+.plays img{
+    width: 80px;
+    height: 80px;
+}
+
+/* HOVER (IMG) */
+.plays img:hover{
+    background-color: var(--green);
+    border-radius: 50px;
+}
+
+

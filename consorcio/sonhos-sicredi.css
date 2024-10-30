@@ -1,0 +1,88 @@
+
+/* ------------------ SONHOS-SICREDI ----------- */
+.sonhos-sicredi{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- SONHOS-CONTAINER ---- */
+.sonhos-container{
+    display: flex;
+    margin: 20px 50px;
+    height: 400px;
+    border-radius: 6px;
+}
+
+/* ---- SONHOS-TEXT ---- */
+.sonhos-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    background-color: #F8F9F7;
+    padding: 20px;
+
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+/* H2 */
+.sonhos-text h2{
+    font-size: 3rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 3rem;
+    width: 500px;
+}
+
+/* P */
+.sonhos-text p{
+    font-size: 1rem;
+    font-family: var(--nunito);
+
+    width: 500px;
+}
+
+/* ---- BTN-SIMULAR ---- */
+.btn-simular{
+    display: flex;
+    padding-top: 50px;
+}
+
+/* A */
+.btn-simular a{
+    text-decoration: none;
+
+}
+
+/* BUTTON */
+.btn-simular button{
+    height: 40px;
+    width: 16vw;
+
+    border: none;
+    border-radius: 6px;
+    background-color: var(--green2);
+
+    color: white;
+    font-weight: 700;
+    font-family: var(--nunito);
+}
+
+/* ---- SONHOS-IMG ---- */
+.sonhos-img{
+    display: flex;
+    flex: 1;
+
+}
+
+/* IMG */
+.sonhos-img img{
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+

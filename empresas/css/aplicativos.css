@@ -1,0 +1,201 @@
+
+
+
+/* -------- APLICATIVOS ---------- */
+.aplicativos{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+/* ----- CONTAINER-APP ----------- */
+.container-app{
+    display: flex;
+    gap: 50px;
+}
+
+/* ----- TEXT-APP ------- */
+.text-app{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* P */
+.text-app span{
+    color: var(--black);
+    font-family: var(--nunito);
+}
+
+/* H2 */
+.text-app h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+}
+
+/* P */
+.text-app p{
+    width: 350px;
+    font-family: var(--nunito);
+}
+
+/* --- TEXT-BAIXE ----- */
+.text-baixe{
+    display: flex;
+  
+}
+
+/* SPAN */
+.text-app span{
+    font-size: 1.2rem;
+    color:#5a645a;
+    font-weight: 600;
+}
+/* ------ IMG-BAIXE ----- */
+.img-baixe{
+    display: flex;
+    gap: 20px;
+}
+
+
+/* --- IMG-PHONE ------ */
+.img-phone{
+    display: flex;
+    position: relative;
+
+}
+
+/* IMG */
+.img-phone img{
+    height: 500px;
+}
+/* ---- PLAY ------- */
+.play{
+    display: flex;
+    position: absolute;
+
+    bottom: 0;
+    left: 30px;
+    border-radius: 50%;
+    padding: 2px;
+
+}
+/* IMG */
+.play img{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    font-weight: bold;
+
+    border-radius: 50%;
+    transition: .2s;
+}
+
+/* HOVER */
+.play:hover{
+    background-color: var(--green);
+    border-radius: 50px;
+
+   
+}
+/*----- CANAIS-CONTATOS ------- */
+
+.canais-contatos{
+
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+/* P */
+.canais-contatos p{
+    font-size: 1.1rem;
+    color: #5a645a;
+    font-family: var(--nunito);
+}
+
+/* ----- CONTAINERS-APLICATION -------- */
+.containers-aplication{
+    display: flex;
+    gap: 10px;
+ 
+}
+
+/* ----- ITENS-APLICATION ------- */
+.itens-aplication{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.14);
+
+    width: 350px;
+    padding: 20px;
+
+    transition: all .3s;
+
+}
+
+/* A */
+.itens-aplication a{
+    text-decoration: none;
+}
+
+
+/*---- TITULO (A) ----*/
+.itens-aplication .titulo{
+    color: var(--black);
+    font-size: 18px;
+}
+
+/* IMG */
+.itens-aplication img{
+    width: 50px;
+    height: 50px;
+}
+
+
+/* --- TITULO-LINK ------ */
+.titulo-link{
+    position: relative;
+    font-family: var(--exo);
+
+}
+
+/* AFTER  */
+.titulo-link::after{
+    display: flex;
+    position: absolute;
+    content: "";
+
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 2px;
+}
+
+/* HOVER (AFTER) */
+.titulo-link:hover::after{
+    background-color: var(--green);
+    width: 150px;
+}
+
+/* P */
+.itens-aplication p{
+    font-family: var(--nunito);
+    font-weight: 300;
+}
+
+/* --- RIGHT ----- */
+.right{
+    position: absolute;
+    top: 20px;
+    left: -60px;
+}
+

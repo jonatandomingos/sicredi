@@ -1,0 +1,97 @@
+
+
+/* ------------- APP-LINK ---------- */
+.app-link{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- CONTAINER-APP ---------- */
+.container-app{
+    display: flex;
+    margin: 0px 50px;
+}
+
+/* ---- ITENS-APP ------- */
+.itens-app{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 20vw;
+    border-radius: 3px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.14);
+}
+
+/* ---- ITENS-APP ------ */
+.itens-app{
+    display: flex;
+    position: relative;
+}
+
+/* --- ITENS-A ----- */
+.itens-a{
+    display: flex;
+}
+
+/* A */
+.itens-a a{
+    position: relative;
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1.5rem;
+
+    transition: all .3s;
+}
+
+/* AFTER */
+.itens-a a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+ 
+    height: 2px;
+
+    background-color: var(--green);
+}
+
+/* HOVER (AFTER) */
+.itens-a a:hover::after{
+    width: 100%;
+}
+
+
+/* IMG */
+.itens-app img{
+    width: 50px;
+    height: 50px;
+}
+
+
+/* P */
+.itens-app p{
+    font-family: var(--nunito);
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--black);
+}
+
+/* ---- LADO --- */
+.lado{
+    position: absolute;
+    top: 10px;
+    left: 220px;
+
+}
+
+/* BUTTON */
+.lado button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+

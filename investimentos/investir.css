@@ -1,0 +1,90 @@
+
+/* --------- INVESTIR ---------- */
+.investir{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- CONTAINER-INVESTIR -------- */
+.container-investir{
+    display: flex;
+    height: 400px;
+    margin: 0px 50px;
+}
+
+/* ---- IMG-INVESTIR ----- */
+.img-investir{
+    display: flex;
+    flex: 1;
+    background-color: blue;
+    border-radius: 8px;
+}
+
+/* IMG */
+.img-investir img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* ---- TEXT-INVESTIR ---- */
+.text-investir{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 20px;
+    flex: 1;
+    
+}
+
+/* H2 */
+.text-investir h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    line-height: 3rem;
+    font-weight: 400;
+    text-align: center;
+}
+/* P */
+.text-investir p{
+    color: #5A645A;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: var(--nunito);
+
+}
+/* ---- LINK-INVESTIR ---- */
+.link-investir{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* A */
+.link-investir a{
+
+    text-decoration: none;
+    position: relative;
+    color: var(--green2);
+    font-weight: 500;
+}
+
+/* AFTER */
+.link-investir a::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 1px;
+    background-color: var(--green2);
+}
+
+/* HOVER (AFTER) */
+.link-investir a:hover::after{
+    width: 100%;
+}
+

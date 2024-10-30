@@ -1,0 +1,93 @@
+
+/* -------- ABRIR-CONTA ---------- */
+.abrir-conta {
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+
+}
+
+/* ---- CONTAINER-CONTA --------- */
+.container-conta{
+    display: flex;
+
+}
+
+/* ---- IMG-CONTA --------- */
+.img-conta{
+    display: flex;
+    background-image: url(https://www.sicredi.com.br/media/home/filer_public_thumbnails/filer_public/2024/09/12/eliseu-e-o-filho-banner-agro.jpg__1300x400_subsampling-2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 50%;
+
+    height: 400px;
+    width: 600px;
+    flex: 2;
+}
+
+/* ---- TEXT-CONTA -------- */
+.text-conta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex: 1;
+    background-color: #F8F9F7;
+    ;
+    padding-inline: 50px;
+}
+
+/* H2 */
+.text-conta h2{
+    font-family: var(--exo);
+    color: var(--green);
+    font-size: 50px;
+}
+
+/* P */
+.text-conta p{
+    font-family: var(--exo);
+    font-size: 20px;
+    color: var(--black);
+    font-weight: 300;
+}
+
+/* --- BTN-CONTA ---- */
+.btn-conta{
+    display: flex;
+}
+
+/* BUTTON */
+.btn-conta button{
+    height: 41px;
+    width: 16vw;
+
+    border-radius: 4px;
+    border: none;
+    border: 1px solid var(--green);
+    background-color: white;
+
+    cursor: pointer;
+
+    transition: all .3s;
+}
+
+/* A */
+.btn-conta button a{
+    text-decoration: none;
+    color: var(--green);
+    font-weight: 500;
+}
+/* HOVER (BUTTON)*/
+.btn-conta button:hover{
+    background-color: var(--green);
+
+}
+
+/* HOVER (A) */
+.btn-conta button a:hover{
+    color: white;
+}
+

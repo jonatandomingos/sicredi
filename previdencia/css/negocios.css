@@ -1,0 +1,126 @@
+
+
+/* ------------------- NEGOCIOS ------------------- */
+.negocios{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+
+}
+
+/* ---- TEXT-NEGOCIOS ---- */
+.text-negocios{
+    display: flex;
+    padding-left: 50px;
+}
+
+/* H2 */
+.text-negocios h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 3rem;
+    font-style: normal;
+}
+
+/* ---- CONTAINER-NEGOCIOS ---- */
+.container-negocios{
+    display: flex;
+    margin: 20px 50px;
+    height: auto;
+    gap: 40px;
+    
+}
+
+/* ---- ITENS-NEGOCIOS ---- */
+.itens-negocios{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: rgb(248, 249, 247);
+    border-radius: 6px;
+
+    cursor: pointer;
+   
+    
+}
+
+/* A */
+.itens-negocios a{
+    text-decoration: none;
+}
+
+/* IMG */
+.negocios-img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+/* NEGOCIOS-TEXT  */
+.negocios-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--black);
+
+    padding: 20px;
+}
+
+/* H3 */
+.negocios-text h3{
+    font-size: 1.5rem;
+    font-family: var(--exo);
+}
+
+/* P */
+.negocios-text p{
+    color: #5A645A !important;
+    font-size: 1rem;
+}
+
+/* ---- LINK-NEGOCIOS ---- */
+.links-negocios{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 20px;
+    
+}
+
+/* A */
+.links-negocios a{
+    text-decoration: none;
+    font-family: var(--nunito);
+    font-weight: 700;
+    color: var(--green2);
+
+    
+    position: relative;
+
+    transition: all .3s;
+}
+
+/* AFTER */
+.links-negocios a::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 1px;
+    background-color: var(--green2);
+}
+
+/* HOVER (AFTER) */
+.links-negocios a:hover::after{
+    width: 100%;
+}
+
+
+
+
+

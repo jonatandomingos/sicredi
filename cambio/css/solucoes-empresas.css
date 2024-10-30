@@ -1,0 +1,68 @@
+
+/* ------------ SOLUCOES-EMPRESAS ---------- */
+.solucoes-empresas{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- TEXT-SOLUCAO ----------- */
+.text-solucao{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding-left: 50px;
+
+
+}
+
+/* SPAN */
+.text-solucao span,
+.filtrar span{
+    font-size: 0.75rem;
+    font-family: var(--exo);
+}
+
+/* H2 */
+.text-solucao h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+/* ---- FILTRAR ----- */
+.filtrar{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+/* ---- BTN-FILTRAR ----- */
+.btn-filtrar{
+    display: flex;
+    gap: 20px;
+    padding-left: 50px;
+    padding-top: 20px;
+
+    cursor: pointer;
+}
+
+/* BUTTON */
+.btn-filtrar button{
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid #CDD3CD;
+    background-color: white;
+    height: 40px;
+
+}
+/* LABEL */
+.btn-filtrar button label{
+    font-weight: 300;
+    cursor: pointer;
+}
+

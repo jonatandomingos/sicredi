@@ -1,0 +1,63 @@
+
+/* ------- CADASTRAR ------ */
+.cadastrar{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- TEXT-CADASTRAR ------ */
+.text-cadastrar{
+    display: flex;
+    padding-left: 50px;
+}
+
+/* H2 */
+.text-cadastrar h2{
+    font-family: var(--exo);
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 3rem;
+
+}
+
+/* ---- CONTAINER-CADASTRAR ---- */
+.container-cadastrar{
+    display: flex;
+    gap: 50px;
+    height: 300px;
+    margin: 0px 50px;
+
+}
+
+/* ---- ITENS-CADSTRAR ---- */
+.itens-cadastrar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+
+/* IMG */
+.itens-cadastrar img{
+    width: 100px;
+    height: 100px;
+}
+
+/* H5 */
+.itens-cadastrar h5{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: var(--exo);
+}
+
+/* P */
+.itens-cadastrar p{
+    font-size: 16px;
+    font-family: var(--nunito);
+    font-weight: 500;
+}
+
+

@@ -1,0 +1,81 @@
+
+/* ------------- VANTAGENS ---------- */
+.vantagens {
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 200px;
+}
+
+/* ----- TEXT-VANTAGENS ---- */
+.text-vantagens {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding-left: 50px;
+}
+
+/* H2 */
+.text-vantagens h2 {
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+/* P */
+.text-vantagens p {
+    color: #5A645A;
+    font-family: var(--nunito);
+}
+
+/* ---- CONTAINER-VANTAGENS ---- */
+.container-vantagens {
+    display: flex;
+    gap: 20px;
+    height: 400px;
+    margin: 0px 50px;
+}
+
+/* ---- ITENS-VANTAGENS ---- */
+.itens-vantagens {
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+
+    width: 320px;
+    height: 500px;
+
+    border-radius: 8px;
+    background-color: rgb(248, 249, 247);
+
+}
+
+/* IMG */
+.itens-vantagens img {
+    width: 320px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* H3 */
+.itens-vantagens h3 {
+   
+   padding-top: 40px;
+   padding-left: 20px;
+   padding-bottom: 20px;
+
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-family: 'Exo 2' !important;
+    font-size: 1.5rem !important;
+    line-height: 1.75rem !important;
+}
+
+/* P */
+.itens-vantagens p{
+    color: #5A645A !important;
+    padding-inline: 20px;
+}
+

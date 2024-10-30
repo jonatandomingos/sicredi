@@ -1,0 +1,47 @@
+
+/* ------------------ SOBRE__TAG ---------------- */
+.sobre__tag{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+
+/* ---- CONTAINER__TAGS --------- */
+.container__tags{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+    background-color: #5A635A;
+}
+
+/* ---- TEXT__TAGS ---- */
+.text__tags{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 850px;
+}
+
+/* H2 */
+.text__tags h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    color: white;
+
+    padding-bottom: 40px;
+}
+
+/* P */
+.text__tags p{
+    font-size: 1rem;
+
+    font-family: var(--nunito);
+    color: white;
+}
+

@@ -1,0 +1,45 @@
+
+/* -------- MOSTRAR-DETALHES -------- */
+.mostrar-detalhes{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ----- CONTAINER-DETAHES ------ */
+.container-detalhes{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ---- ITENS-DETAHES ------ */
+.itens-detalhes{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-top: 1px solid #CDD3CD !important;
+    border-bottom: 1px solid #CDD3CD !important;
+    padding: 40px;
+}
+
+/* --- TEXT-MOSTRAR ---- */
+.text-mostrar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding-top: 50px;
+}
+
+/* A */
+.text-mostrar a {
+    text-decoration: none;
+    color: var(--green);
+}
+
+/* HOVER (A) */
+.text-mostrar a:hover{
+    text-decoration: underline;
+}
+

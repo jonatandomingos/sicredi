@@ -1,0 +1,88 @@
+
+/* ----------------- PORTAL -------------- */
+.portal{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- CONTAINER-PORTAL ---- */
+.container-portal{
+    display: flex;
+    margin: 0px 50px;
+    height: 400px;
+
+    border-radius: 6px;
+}
+
+/* ---- IMG-PORTAL ---- */
+.img-portal{
+    display: flex;
+    flex: 1;
+    border-radius: 6px;
+}
+
+/* IMG */
+.img-portal img{
+    width: 100%;
+    object-fit: fill;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+/* ---- TEXT-PORTAL ---- */
+.text-portal{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px 0px 0px 80px;
+    flex: 1;
+    background-color: rgb(245, 245, 245);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+/* H2 */
+.text-portal h2{
+    font-size: 1.25rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 1.75rem;
+    font-style: normal;
+}
+/* P */
+.text-portal p{
+    color: #5A645A;
+    font-family: var(--exo);
+    width: 80%;
+}
+
+/* ---- BTN-ACESSOS ---- */
+.btn-acessos{
+    display: flex;
+}
+
+/* BUTTON */
+.btn-acessos button{
+    padding: 12px 83px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--green);
+
+    transition: all .4s;
+}
+
+/* A */
+.btn-acessos button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+/* HOVER */
+.btn-acessos button:hover{
+    background-color: green;
+
+}
+

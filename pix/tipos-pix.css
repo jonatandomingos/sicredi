@@ -1,0 +1,61 @@
+
+/* --------- TIPOS-PIX ------ */
+.tipos-pix{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- TEXT-TIPOS ---- */
+.text-tipos{
+    display: flex;
+    padding-left: 50px;
+}
+
+/* H2 */
+.text-tipos h2{
+    font-family: var(--exo);
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+
+}
+
+/* ---- CONTAINER-TIPOS ---- */
+.container-tipos{
+    display: flex;
+    gap: 20px;
+
+    margin: 0px 50px;
+
+}
+
+/* --- ITENS-TIPOS ---- */
+.itens-tipos{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: rgb(248, 249, 247);
+    border-radius: 8px;
+
+    padding: 20px;
+    margin-top: 50px;
+    width: 50%;
+}
+
+/* H3 */
+.itens-tipos h3{
+    font-size: 1.25rem;
+    font-family: var(--exo);
+    line-height: 1.75rem;
+    font-weight: 400;
+    color: var(--black);
+}
+
+/* P */
+.itens-tipos p{
+    color: #5A645A !important;
+    font-family: var(--nunito);
+}
+

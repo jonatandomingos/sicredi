@@ -1,0 +1,99 @@
+
+/* ------------ PONTUACAO ------------- */
+.pontuacao{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 120px;
+}
+
+/* ---- CONTAINER-PONT ---------- */
+.container-pont{
+    display: flex;
+    margin: 0px 50px;
+    height: 400px;
+
+    gap: 20px;
+    border-radius: 6px;
+}
+
+/* ---- IMG-PONT ---- */
+.img-pont{
+    display: flex;
+    flex: 1;
+
+}
+
+/* IMG */
+.img-pont img{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+/* ---- TEXT-PONT ---- */
+.text-pont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    background-color: rgb(236, 246, 231);
+    
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+/* ---- TEXTOS-PONT ---- */
+.textos-pont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+
+    padding: 50px;
+   
+}
+
+/* H2 */
+.textos-pont h2{
+    font-size: 1.25rem;
+    font-family: var(--exo);
+    font-weight: 700;
+    line-height: 1.75rem;
+}
+
+/* P */
+.text-pont p{
+    font-size: 1rem;
+    color: #5A645A;
+    font-family: var(--exo);
+}
+
+/* ---- LINK-LUGAR ---- */
+.link-lugar{
+    display: flex;
+
+}
+
+/* A */
+.link-lugar a{
+    text-decoration: none;
+}
+
+/* BUTTON */
+.link-lugar button{
+    border: none;
+    padding: 12px 83px;
+    background-color: #33820D;
+    border-radius: 8px;
+
+    color: white;
+    font-weight: bold;
+    font-family: var(--nunito);
+}
+
+/* HOVER (BUTTON) */
+.link-lugar button:hover{
+    background-color: rgba(0, 128, 0, 0.918);
+}
+
+

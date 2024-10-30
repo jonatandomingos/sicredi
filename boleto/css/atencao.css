@@ -1,0 +1,114 @@
+
+
+/* --------- ATENCAO -------- */
+.atencao{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+
+}
+
+/* ---- CONTAINER-ATENCAO -------- */
+.container-atencao{
+    display: flex;
+    gap: 20px;
+    padding: 0px 100px;
+
+}
+
+/* ---- TEXT-ATENCAO ---- */
+.text-atencao{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+ 
+}
+
+/* H5 */
+.text-atencao h5,
+.dados h5{
+    color: #64C832;
+    font-size: 2.75rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: var(--exo);
+}
+
+/* P */
+.text-atencao p,
+.dados p{
+    color: #7F7F7F;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+
+/* ---- IMG-ATENCAO -------- */
+.img-atencao{
+    display: flex;
+    flex: 1;
+}
+
+/* IMG */
+.img-atencao img{
+    width: 500px;
+}
+
+/* ----- DADOS ---- */
+.dados{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+
+/* --- CONTAINER-BOLETOS ------ */
+.container-boletos{
+    display: flex;
+    gap: 50px;
+
+    padding: 0px 100px;
+
+}
+
+/* ---- ITENS-BOLETOS ----- */
+.itens-boletos{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ---- INPUTS-RADIO ------- */
+.inputs-radio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* SPAN */
+.inputs-radio span{
+    color: #596359;
+    font-family: var(--exo);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* ---- IMGS-BOLETOS ----- */
+.imgs-boletos{
+    display: flex;
+    flex-direction: column;
+}
+
+/* IMG */
+.imgs-boletos img{
+    width: 500px;
+}
+
+/* P */
+.imgs-boletos p{
+    color: #7F7F7F;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+

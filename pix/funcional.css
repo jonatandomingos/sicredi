@@ -1,0 +1,74 @@
+
+/* -------- FUNCIONAL ---------- */
+.funcional{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+
+    height: 550px;
+    width: 100%;
+    background-color: var(--green2);
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* ---- TEXT-FUNCIONAL ---- */
+.text-funcional{
+    display: flex;
+
+}
+
+/* H2 */
+.text-funcional h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 300;
+    color: white;
+
+}
+
+/*----- FUNCIONAL-P ---- */
+.fucional-p{
+    display: flex;
+    width: 75%;
+}
+
+/* P */
+.fucional-p p{
+    color: white;
+    font-family: var(--nunito);
+    padding-top: 20px;
+}
+
+/* STRONG */
+.fucional-p strong{
+    color: white;
+}
+
+/* ---- TEXTO-PASSOS --- */
+.texto-passos{
+    display: flex;
+}
+
+/* STRONG */
+.texto-passos strong{
+    color: white;
+}
+
+/* ---- ORDEM-PASSOS ---- */
+.ordem-passos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 40px;
+
+}
+
+/* SPAN */
+.ordem-passos span{
+    color: white;
+    font-family: var(--exo);
+}
+

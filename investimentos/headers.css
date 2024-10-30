@@ -1,0 +1,130 @@
+
+
+
+
+
+
+
+/* -------- HEADERS ------ */
+.headers{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* ---- HEADER-ONE ---- */
+.header-one{
+    display: flex;
+    background-color: var(--black);
+    width: 100%;
+
+    padding-left: 50px;
+}
+
+/* UL */
+.header-one ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+/* A */
+.header-one a{
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--gray);
+    font-weight: 700;
+
+}
+
+/* ---- HEADER-TWO ------ */
+.header-two{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+
+    
+    padding-right: 100px;
+    border-bottom: 0.5px solid var(--black);
+    
+}
+
+/* ---BTNS ---- */
+.btns{
+    display: flex;
+    gap: 50px;
+}
+
+/* BTN CONTA */
+.conta{
+    padding: 12px 24px;
+    border: 1px solid var(--green);
+    border-radius: 8px;
+    background-color: transparent;
+
+    transition: all .3s;
+
+}
+
+/* A */
+.conta a{
+    text-decoration: none;
+    color: var(--green);
+    font-weight: 600;
+    font-family: var(--nunito);
+}
+
+/* HOVER */
+.conta:hover{
+    background-color: var(--green);
+   
+}
+
+/* A HOVER */
+.conta a:hover{
+    color: white;
+}
+
+/* ---- ACESSAR ---- */
+.acessar{
+    display: flex;
+}
+
+/* BUTTON */
+.acessar button{
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: var(--green);
+
+    transition: all .3s;
+
+}
+
+/* SPAN */
+.acessar button span{
+    color: white;
+    font-weight: bold;
+
+    font-family: var(--nunito);
+}
+
+/* HOVER */
+.acessar button:hover{
+    background-color: #1a5303e7;
+}
+
+/*---- SEARCH -----*/
+.search{
+    display: flex;
+}
+/* BUTTON */
+.search button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+
+

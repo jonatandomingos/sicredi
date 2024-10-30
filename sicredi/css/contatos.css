@@ -1,0 +1,255 @@
+
+/* --------- CONTATOS ----------- */
+.contatos{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ----- CONTAINER-CONTATOS ----------- */
+.container-contatos{
+    display: flex;
+    gap: 50px;
+}
+
+/* ---- CONTAINER-WHATSAPP ------- */
+.container-whatsapp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* ---- WHATSAPP ----- */
+.whatsapp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    flex: 0 0 80% !important;
+    background-color: #F8F9F7;
+
+    padding: 40px;
+    border-radius: 4px;
+}
+
+/* ---- IMG-WHATSAPP */
+.img-whatsapp{
+    display: flex;
+}
+
+/* IMG */
+.img-whatsapp img{
+    width: 40px;
+    height: 40px;
+
+}
+
+/* ----TEXT-WHATSAPP ------ */
+.text-whatsapp{
+    display: flex;
+    flex-direction: column;
+}
+
+/* A */
+
+.text-whatsapp span{
+    font-family: var(---exo);
+}
+.text-whatsapp a{
+    text-decoration: none;
+    color: var(--green);
+    font-size: 18px;
+
+    position: relative;
+}
+
+.text-whatsapp p{
+    font-size: 12px;
+    font-family: var(--nunito);
+}
+
+/* AFTER */
+.text-whatsapp a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    background-color: #3FA110;
+    width: 0px;
+    height: 1px;
+
+}
+
+/* HOVER */
+.text-whatsapp a:hover::after{
+    width: 120px;
+}
+
+/* ---- TEXT-WHATSAPP ------ */
+.text-whatsappp{
+    font-size: 12px;
+}
+
+/* --- QRCODE ----- */
+.qrode{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    background-color: white;
+}
+
+/* ---- ITENS-QRCODE ---- */
+.itens-qrcode{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.itens-qrcode span{
+    font-family: var(--nunito);
+}
+
+/* ---- PHONES ------- */
+.phones{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ---- ITENS-PHONES ------- */
+.itens-phone{
+    display: flex;
+    flex-direction: column;
+}
+
+/* SPAN */
+.itens-phone span{
+    font-size: 16px;
+    color: var(--black);
+    font-family: var(---exo);
+}
+
+/* P */
+.itens-phone p{
+    font-size: 14px;
+    color: var(--black);
+    font-weight: 300;
+    font-family: var(--nunito);
+}
+/* A */
+.itens-phone a{
+    text-decoration: none;
+    font-size: 18px;
+
+    color: var(--green);
+    position: relative;
+}
+
+/* AFTER */
+.itens-phone a::after{
+    content:  "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 1px;
+    background-color: var(--green);
+    width: 0;
+
+}
+
+/* HOVER */
+.itens-phone a:hover::after{
+    width: 100px;
+}
+
+/* ------- CONTAINER-CANAIS -------- */
+.container-canais{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ----- CANAIS ----- */
+.canais{
+    display: flex;
+}
+
+/* UL */
+.canais ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+/* A */
+.canais a{
+    text-decoration: none;
+    color: var(--green);
+    font-weight: 700;
+    font-family: var(--nunito);
+
+    position: relative;
+}
+
+/* AFTER */
+.canais a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background-color: var(--green);
+    width: 0%;
+    height: 1px;
+}
+
+/* HOVER */
+.canais a:hover::after{
+    width: 100%;
+}
+
+
+/* ------- PAIS ------- */
+.pais{
+    display: flex;
+    gap: 50px;
+    padding-right: 100px;
+}
+
+/*----- ACTIVE (BUTTON)------*/
+.pais .active{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    height: 41px;
+    width: 41px;
+    color: #5A645A;
+    border-radius: 50%;
+    border: 1px solid rgb(63, 161, 16);
+    text-transform: uppercase;
+}
+
+/* BUTTON (EN) */
+.en{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+/* ----- CNPJ ------- */
+.cnpj{
+    display: flex;
+    /* flex-direction: column; */
+
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+/* P */
+.cnpj p{
+    color: #5A645A;
+    font-size: 12px;
+
+}
+
+

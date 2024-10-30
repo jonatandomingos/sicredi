@@ -1,0 +1,100 @@
+
+
+
+
+
+
+
+
+
+
+
+/* -------- FORMULATION ------------- */
+.formulation{
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(https://www.sicredi.com.br/media/home/filer_public_thumbnails/filer_public/2024/05/02/agro-seja-associado-abrir_conta-sicredi-desktop.png__1717x768_subsampling-2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #33820D;
+    
+    width: 100%;
+    height: 500px;
+}
+
+/* ---- TEXT-FORM ------ */
+.text-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 0px 0px 50px;
+    width: 50%;
+    height: 100%;
+
+}
+
+/* H2 */
+.text-form h2{
+    color: white;
+    font-family: var(--exo);
+    font-weight: 400;
+    font-style: italic;
+    font-size: 3rem;
+}
+
+/* P */
+.text-form p{
+    color: white;
+    font-family: var(--nunito);
+}
+
+/* ---- FORMULLARIOS ------*/
+.formularios{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 432px;
+    padding: 16px 24px 24px 24px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* SPAN */
+.formularios span{
+    font-size: 1rem;
+    font-family: var(--exo);
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* INPUT */
+.formularios input{
+    border: none;
+    border-bottom: 1px solid #5A645A;
+    transition: all .3s;
+}
+
+/* HOVER */
+.formularios input:hover{
+    border-bottom: 2px solid #5A645A;
+}
+
+/* PLACEHOLDER */
+.formularios input::placeholder{
+    color: #5A645A;
+}
+
+/* BUTTON */
+.formularios button{
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+
+    background-color: #D7E6C8;
+    color: white;
+}
+
+

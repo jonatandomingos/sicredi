@@ -1,0 +1,157 @@
+
+/* -------------- VANTAGENS-CONTRATO ----------------------- */
+.vantagens-contrato{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- CONTRATO-TEXT ---- */
+.contrato-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding-left: 50px;
+}
+
+/* SPAN */
+.contrato-text span{
+    font-size: 0.75rem;
+    font-family: var(--nunito);
+}
+
+
+/* H2 */
+.contrato-text h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+/* P */
+.contrato-text p{
+    font-size: 1rem;
+    font-family: var(--nunito);
+}
+
+/* ---- CONTRATO-CONTAINER ---- */
+.contrato-container{
+    display: flex;
+    gap: 40px;
+    margin: 20px 50px;
+    height: 250px;
+
+}
+/* ---- CONTRATO-ITENS ---- */
+.contrato-itens{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    height: 250px;
+    width: 400px;
+ 
+}
+/* IMG */
+.contrato-itens img{
+    width: 80px;
+    height: 80px;
+}
+/* H3 */
+.contrato-itens h3{
+    font-size: 1.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    color: var(--black);
+}
+
+/* P */
+.contrato-itens p{
+    font-size: 1rem;
+
+    font-weight: 600;
+    line-height: 1.5rem;
+    font-style: normal;
+    font-family: var(--nunito);
+    color: var(--black);
+}
+
+/* ---- CONTAIENR-PARCELAS ---- */
+.container-parcelas{
+    display: flex;
+    margin: 50px 50px;
+    height: 300px;
+
+    border-radius: 6px;
+}
+
+/* PARCELAS-IMG */
+.parcelas-img{
+    display: flex;
+    flex: 1;
+}
+
+/* IMG */
+.parcelas-img img{
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+/* ---- PARCELAS-TEXT ---- */
+.parcelas-text{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+    gap: 20px;
+    flex: 1;
+    background-color: rgb(245, 245, 245);
+}
+
+/* H3 */
+.parcelas-text h3{
+    font-size: 1.25rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+/* P */
+.parcelas-text p{
+    font-size: 1rem;
+    font-family: var(--exo);
+    color: #5A645A;
+    font-weight: 500;
+}
+
+/* ---- BTN-CONHECER ---- */
+.btn-conhecer{
+    display: flex;
+}
+
+/* A */
+.btn-conhecer a{
+    text-decoration: none;
+}
+
+/* BUTTON */
+.btn-conhecer button{
+    padding: 12px 83px;
+
+    border: none;
+    border-radius: 6px;
+    background-color: var(--green);
+
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+
+}
+
+

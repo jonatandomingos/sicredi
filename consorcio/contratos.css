@@ -1,0 +1,99 @@
+
+
+
+/* ---------------- CONTRATOS ------------------ */
+.contratos{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+/* --- CONTEUDO-CONTRATOS --------- */
+.conteudo-contratos{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
+    height: auto;
+    background-color: #FAFAFA;
+    padding: 56px;
+}
+
+/* ---- TEXT-CONTRATOS ------ */
+.text-contratos{
+    display: flex;
+}
+
+/* H2 */
+.text-contratos h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+}
+
+/* ---- CONTAINER-CONTRATOS ---- */
+.container-contratos{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* ---- ITENS-CONTRATOS ---- */
+.itens-contratos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: transparent;
+}
+
+/* SPAN */
+.itens-contratos span{
+    width: 210px;
+    color: var(--black);
+    font-family: var(--exo);
+    font-weight: 700;
+    width: 250px;
+}
+
+/* P */
+.itens-contratos p{
+    color: var(--black);
+    font-size: 1rem;
+    font-family: var(--nunito);
+}
+
+/* ---- LINK-BAIXANDO ---- */
+.links-baixando{
+    display: flex;
+}
+
+/* A */
+.links-baixando a{
+    text-decoration: none;
+    color: var(--green);
+
+    position: relative;
+
+}
+
+/* AFTER */
+.links-baixando a::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 1px;
+    background-color: var(--green);
+}
+
+/* HOVER (AFTER) */
+.links-baixando a:hover::after{
+    width: 100%;
+}
+
+
+
+

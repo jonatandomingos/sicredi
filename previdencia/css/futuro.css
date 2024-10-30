@@ -1,0 +1,83 @@
+
+/* ------------------- FUTURO ---------------------- */
+.futuro{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- CONTAINER-FUTURO ----- */
+.container-futuro{
+    display: flex;
+    margin: 20px 50px;
+    height: 400px;
+
+}
+
+/* ---- TEXT-FUTURO ---- */
+.text-futuro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px;
+    flex: 1;
+    background-color: #F8F9F7;
+
+    width: 200px;
+
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+/* H2 */
+.text-futuro h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+}
+
+/* P */
+.text-futuro p{
+    font-size: 1rem;
+    font-family: var(--nunito);
+}
+
+/* ---- LINK-SIMULAR ---- */
+.links-simular{
+    display: flex;
+}
+
+/* A */
+.links-simular a{
+    text-decoration: none;
+}
+
+/* BUTTON */
+.links-simular a button{
+    height: 40px;
+    width: 16vw;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: var(--green2);
+
+    color: white;
+    font-weight: 500;
+}
+
+/* ---- IMG-FUTURO ----- */
+.img-futuro{
+    display: flex;
+    flex: 1;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+/* IMG */
+.img-futuro img{
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+

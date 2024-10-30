@@ -1,0 +1,98 @@
+
+/* -------- CONTRATAR --------- */
+.contratar{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+
+/* --- CONTAINER-CONTRATAR ------ */
+.container-contratar{
+    display: flex;
+    height: 300px;
+    margin: 0px 50px;
+    border-radius: 8px;
+    background-color: rgb(245, 245, 245);
+}
+
+/* ---- CONTEUDO-CONTRATAR ---- */
+.conteudo-contratar{
+    display: flex;
+    gap: 50px;
+    padding: 40px;
+    
+}
+/* ---- IMG-CONTRATAR ---- */
+.img-contratar{
+    display: flex;
+    flex: 1;
+    
+}
+
+/* IMG */
+.img-contratar img{
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+
+    height: 200px;
+
+}
+
+/* ---- TEXT-CONTRATAR ---- */
+.text-contratar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: rgb(245, 245, 245);
+}
+
+/* ---- TEXTO-CONTRATAR ---- */
+.texto-contratar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* H3 */
+.text-contratar h3{
+    font-size: 1.125rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+/*---- LINK-CONTRATAR ---- */
+.link-contratar{
+    display: flex;
+}
+
+/* A */
+.link-contratar a{
+    text-decoration: none;
+}
+
+/* BUTTON */
+.link-contratar button{
+    padding: 12px 83px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--green);
+
+    font-size: 16px;
+    color: white;
+    font-family: var(--nunito);
+    font-weight: 700;
+    line-height: 24px;
+
+    transition: all .3s ease-in-out;
+}
+
+/* HOVER (BUTTON) */
+.link-contratar button:hover{
+    background-color: green;
+}

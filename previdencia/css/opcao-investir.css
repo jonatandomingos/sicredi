@@ -1,0 +1,86 @@
+
+/* ------------ OPCAO-INVESTIR -------------------- */
+.opcao-investir{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- CONTAINER-OP-INVESTIR ---- */
+.container-op-investir{
+    display: flex;
+    margin: 0px 50px;
+    height: 400px;
+    border-radius: 6px;
+}
+
+/* ---- IMG-OP-INVESTIR ---- */
+.img-op-ivestir{
+    display: flex;
+    flex: 1;
+
+}
+
+/* IMG */
+.img-op-ivestir img{
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    object-fit: cover;
+}
+
+/* ---- TEXT-OP-INVESTIR ---- */
+.text-op-investir{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px 0px 100px;
+    gap: 10px;
+    flex: 1;
+    background-color: rgb(245, 245, 245);
+}
+
+/* H2 */
+.text-op-investir h2{
+    font-size: 1.25rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+/* P */
+.text-op-investir p{
+    color: #5A645A;
+    font-family: var(--exo);
+}
+
+/* ---- BTN-CONHECENDO ---- */
+.btn-conhecendo{
+    display: flex;
+    padding-top: 50px;
+}
+
+/* A */
+.btn-conhecendo a{
+    text-decoration: none;
+}
+
+/* BUTTON */
+.btn-conhecendo button{
+    padding: 12px 83px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: var(--green);
+
+    color: white;
+    font-weight: 500;
+    font-family: var(--nunito);
+}
+
+/* HOVER */
+.btn-conhecendo button:hover{
+    background-color: green;
+}
+
+

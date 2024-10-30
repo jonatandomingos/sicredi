@@ -1,0 +1,89 @@
+
+/* ----------- CARTAO ------------ */
+.cartao{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- CONTAINER-CARTAO ------- */
+.contaienr-cartao{
+    display: flex;
+    gap: 100px;
+    width: 100%;
+
+}
+
+/* ---- IMG-CARTAO ------- */
+.img-cartao{
+    display: flex;
+    background-image: url(https://www.sicredi.com.br/media/home/filer_public_thumbnails/filer_public/2024/09/18/home-apple-pay.png__1300x400_subsampling-2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% center;
+    width: 578.91px;
+    height: 410px;
+
+    width: 80%;
+}
+
+/* ---- TEXT-CARTAO ------- */
+.text-cartao{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    margin-top: 100px;
+
+
+}
+
+/* H2 */
+.text-cartao h2{
+    font-size: 2rem;
+    font-family: var(--exo);
+    width: 300px;
+
+    color: var(--green);
+    font-weight: bold;
+}
+
+/* H3 */
+.text-cartao h3{
+    font-size: 20px;
+    font-family: var(--exo);
+    color: var(--black);
+    width: 300px;
+}
+
+/* --- BTNS ------ */
+.btn{
+    display: flex;
+}
+
+/* BUTTON */
+.btn button{
+    height: 41px;
+    width: 16vw;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid var(--green);
+
+    background-color: white;
+
+    cursor: pointer;
+
+    font-size: 16px;
+    color: var(--green);
+    font-weight: 500;
+    
+    font-family: var(--nunito);
+}
+
+/* HOVER */
+.btn button:hover{
+    background-color: var(--green);
+    color: white;
+}
+

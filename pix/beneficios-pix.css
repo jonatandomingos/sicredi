@@ -1,0 +1,120 @@
+
+/* ----------- BENEFICIOS-PIX ------- */
+.beneficios-pix{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/*----- TEXT-PIX ----- */
+.text-pix{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 50px;
+}
+
+/* H2 */
+.text-pix h2{
+    font-family: var(--exo);
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 400;
+
+}
+
+/* P */
+.text-pix p{
+    font-family: var(--nunito);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/* ---- CONTAINER-BENE ---- */
+.container-bene{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    margin: 0px 50px;
+
+}
+
+/* --- ITENS-BENE ---- */
+.itens-bene,
+.itens-bene-link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    height: 350px;
+    border-radius: 8px;
+    background-color: rgb(11, 74, 31);
+    padding: 20px 20px 0px 20px;
+}
+
+/* IMG */
+.itens-bene img{
+    width: 80px;
+}
+
+/* H3 */
+.itens-bene h3{
+    color: white;
+    font-weight: 400;
+    font-size: 1.25rem;
+    font-family: var(--exo);
+}
+
+/* P */
+.itens-bene p{
+    color: white;
+    font-weight: 300;
+    font-family: var(--nunito);
+    text-align: left;
+    
+}
+
+/* --- ITENS-BENE-LINK ----- */
+.itens-bene-link{
+    display: flex;
+}
+
+/* A */
+.itens-bene-link a{
+    text-decoration: none;
+
+}
+
+/* --- BENE-LINK ---- */
+.bene-link{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* A */
+.bene-link a{
+    position: relative;
+    color: white;
+    font-weight: 500;
+}
+
+/* AFTER */
+.bene-link a::after{
+    position: absolute;
+    content: "";
+    left: 0px;
+    bottom: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: white;
+
+    transition: all .2s;
+}
+
+/* HOVER (AFTER) */
+.bene-link a:hover::after{
+    width: 100%;
+}
+

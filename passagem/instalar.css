@@ -1,0 +1,40 @@
+
+
+/* ------------- INSTALAR -------------- */
+.instalar {
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* --- CONTAINER__INSTALAR ----- */
+.container__instalar{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/passagem/img/vamos_instalar_sua_tag_de_passagem_sicredi.jpg__1980x1024_subsampling-2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+/* ---- PLAYERS ---- */
+.players{
+    position: absolute;
+    display: flex;
+    top: 20px;
+
+}
+
+/* IMG */
+.players img{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 80px;
+    top: 550px;
+}
+
+

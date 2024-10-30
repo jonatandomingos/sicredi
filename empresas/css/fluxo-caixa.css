@@ -1,0 +1,171 @@
+
+/* ---------- FLUXO-CAIXA ----------- */
+.fluxo-caixa{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+    margin: 50px;
+}
+
+/* ----- CONTAINER-FLUXO ------ */
+.container-fluxo{
+    display: flex;
+
+    width: 100%;
+    height: 400px;
+    
+}
+
+/* ----- IMG-FLUXO ------ */
+.img-fluxo{
+    display: flex;
+    flex: 1;
+    border-radius: 8px;
+
+}
+
+/* IMG */
+.img-fluxo img{
+    width: 100%;
+}
+
+
+/* ----- TITLE-FLUXO -------- */
+.title-fluxo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    flex: 1;
+    background-color: #F8F9F7;
+}
+
+/* H2 */
+.title-fluxo h2{
+    color: var(--black);
+    font-family: var(--exo);
+    font-size: 2.5rem;
+}
+
+/* H4 */
+.title-fluxo h4{
+    font-size: 1.5rem;
+    font-family: var(--exo);
+    color: var(--black);
+    font-weight: 400;
+}
+
+/* ----- BTN-ASSISTIR ------- */
+.btns-assistir{
+    display: flex;
+}
+
+/* BUTTON */
+.btns-assistir button{
+    /* padding: 12px 83px; */
+    width: 250px;
+    height: 50px;
+    background-color: var(--green);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    transition: all .3s;
+}
+
+/* A */
+.btns-assistir button a{
+    text-decoration: none;
+
+    color: white;
+
+    font-family: var(--nunito);
+}
+/* HOVER */
+.btns-assistir button:hover{
+    background-color: rgba(2, 49, 2, 0.904);
+}
+
+/* ----- CONTAINER-APPS ------ */
+.container-apps{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+
+}
+
+/*-------- ITENS-APPS ------*/
+.itens-apps{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+
+    width: 28vw;
+
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+
+    transition: all .3s;
+}
+
+
+/* A */
+.itens-apps a{
+    text-decoration: none;
+}
+
+/* HOVER */
+.itens-apps:hover{
+    background-color: var(--green);
+}
+
+/* IMG */
+.itens-apps img{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color: green;
+
+
+
+}
+
+/* H5 */
+.itens-apps h5{
+    color: var(--black);
+    font-size: 1.5rem;
+    font-family: var(--exo);
+}
+
+/* P */
+.itens-apps p{
+    color: var(--black);
+    font-family: var(--exo);
+}
+
+/* P HOVER */
+.itens-apps p:hover{
+    color: white;
+}
+
+/* ---- RIGHT ----- */
+.right{
+    display: flex;
+    position: absolute;
+
+    left: 320px;
+    top: 10px;
+
+}
+
+
+/* BUTTON */
+.right button{
+    border: none;
+    outline:  none;
+    background-color: transparent;
+}
+

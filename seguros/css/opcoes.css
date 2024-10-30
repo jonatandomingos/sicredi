@@ -1,0 +1,80 @@
+
+/* --------------- OPCOES ---------- */
+.opcoes{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- TEXT-OPCOES ---- */
+.text-opcoes{
+    display: flex;
+    padding: 50px;
+}
+
+/* H2 */
+.text-opcoes h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+/* ---- CONTAINER-OPCOES ---- */
+.container-opcoes{
+    display: flex;
+    gap: 40px;
+    
+    margin: 0px 50px;
+ 
+}
+
+/* ---- LINHA1 ---- */
+.linhas1{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+/* --- ITENS-OPCOES ---- */
+.itens-opcoes{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+
+    height: 500px;
+    width: 400px;
+    border-radius: 4px;
+    background-color: transparent;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.14);
+
+}
+
+/* A */
+.itens-opcoes a{
+    text-decoration: none;
+}
+
+/* IMG */
+.itens-opcoes img{
+    border-radius: 50%;
+}
+
+/* H5 */
+.itens-opcoes h5{
+    font-family: var(--exo);
+    font-size: 1.25rem;
+    color: var(--black);
+}
+
+/* P */
+.itens-opcoes p{
+    color: var(--black);
+    font-weight: 300;
+    font-family: var(--nunito);
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+

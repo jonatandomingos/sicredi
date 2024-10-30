@@ -1,0 +1,37 @@
+
+
+/* ------------ SOBRE-CONSORCIO -------------- */
+.sobre-consorcio{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 100px;
+}
+
+
+/* ---- TEXT-CONSORCIO ---- */
+.text-consorcio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 300px;
+    width: 87%;
+    gap: 20px;
+}
+
+/* H2 */
+.text-consorcio h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+/* P */
+.text-consorcio p{
+    font-size: 1rem;
+    font-family: var(--nunito);
+    line-height: 1.5rem;
+}
+
+

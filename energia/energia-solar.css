@@ -1,0 +1,98 @@
+
+/* ------------ ENERGIA-SOLAR ------------------- */
+.energia-solar{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 150px;
+}
+
+/* ---- CONTAINER-SOLAR ----- */
+.container-solar{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    gap: 150px;
+
+}
+
+/* --- IMG-SOLAR ---- */
+.img-solar{
+    display: flex;
+    flex: 1;
+    background-image: url(https://www.sicredi.com.br/media/produtos/filer_public_thumbnails/filer_public/2022/11/25/energia-solar-como-funciona-a-energia-solar.jpg__403x523_subsampling-2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+/* ---- TEXT-SOLAR ---- */
+.text-solar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+    
+}
+/* H2 */
+.text-solar h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+}
+
+/* STRONG */
+.text-solar h2 strong{
+    color: var(--green);
+    font-weight: 300;
+}
+
+/* P */
+.text-solar p{
+    width: 75%;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: var(--nunito);
+}
+
+/* --- TEXT-CLARO --- */
+.text-claro{
+    font-weight: 200;
+    color: var(--gray);
+}
+/* ---- LINK-LER ---- */
+.links-ler{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* A */
+.links-ler a{
+    text-decoration: none;
+    color: var(--green);
+    font-family: var(--exo);
+
+    position: relative;
+    transition: all .3s;
+}
+
+/* AFTER */
+.links-ler a::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 1px;
+    background-color: var(--green);
+}
+
+/* HOVER (AFTER) */
+.links-ler a:hover::after{
+    width: 100%;
+}
+
+

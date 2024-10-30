@@ -1,0 +1,152 @@
+
+
+/* --------- DUVIDAS ---------- */
+.duvidas{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    gap: 50px;
+
+
+    padding-bottom: 50px;
+}
+
+/* ---- CONTAINER-DUVIDAS ------ */
+.container-duvidas{
+    display: flex;
+    gap: 50px;
+}
+
+/* ---- IMG-DUVIDAS ---- */
+.img-duvidas{
+    display: flex;
+}
+
+/* IMG */
+.img-duvidas img{
+    width: 900px;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* ---- TEXT-DUVIDAS ---- */
+.text-duvidas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding-top: 100px;
+    
+}
+
+/* H2 */
+.text-duvidas h2{
+    color: var(--green);
+    font-weight: bold;
+}
+
+/* H3 */
+.text-duvidas h3{
+    color: var(--black);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* ------ SAIBA-MAIS -------- */
+.saiba-mais{
+    display: flex;
+}
+
+/* BUTTOM */
+.saiba-mais button{
+    width: 16vw;
+    height: 41px;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid var(--green);
+
+    background-color: white;
+}
+
+/* A */
+.saiba-mais button a{
+    text-decoration: none;
+    color: var(--green);
+    font-weight: 600;
+}
+
+/* HOVER */
+.saiba-mais button:hover{
+    background-color: var(--green);
+    
+}
+
+/* HOVER (A) */
+.saiba-mais a:hover{
+    color: white;
+}
+
+
+/* ------ BOLETOS ------- */
+.boletos{
+    display: flex;
+    gap: 50px;
+    padding: 0px 100px;
+}
+
+/*----- CAR-BOLETOS ---- */
+.card-boletos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+
+
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.14);
+    width: 450px;
+    height: 100%;
+    border-radius: 4px;
+
+    padding: 20px;
+
+    transition: all .2s;
+
+
+}
+
+/* A */
+.card-boletos a{
+    text-decoration: none;
+}
+
+/* IMG */
+.card-boletos img{
+    width: 20px;
+    height: 20px;
+
+}
+/* H4 */
+.card-boletos h4{
+    color: var(--black);
+    font-family: var(--exo);
+}
+
+/* P */
+.card-boletos p{
+    font-size: 17px;
+    color: var(--black);
+    font-family: var(--nunito);
+}
+
+/* HOVER */
+.card-boletos:hover{
+    background-color: var(--green);
+}
+
+/* P (HOVER) */
+.card-boletos p:hover{
+    color: white;
+}
+
+

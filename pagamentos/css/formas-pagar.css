@@ -1,0 +1,87 @@
+
+
+/* --------------------- FORMAS-PAGAR  --------- */
+.formas-pagar{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- CONTAINER-FORMAS ----- */
+.container-formas{
+    display: flex;
+    margin: 0px 50px;
+    height: 300px;
+    background-color: rgb(245, 245, 245);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+/* ---- IMG-FORMAS ---- */
+.img-formas{
+    display: flex;
+    flex: 1;
+ 
+}
+
+/* IMG */
+.img-formas img{
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+/* ---- TEXT-FORMAS ---- */
+.text-formas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+/* ---- TEXT-FORMAS ---- */
+.textos-formas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+   padding-left: 100px;
+}
+
+/* H3 */
+.text-formas h3{
+    font-size: 1.25rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 1.75rem;
+    color: #5A645A;
+}
+
+/* ---- BTN-FORMAS ---- */
+.btn-formas{
+    display: flex;
+}
+
+/* A */
+.btn-formas a{
+    text-decoration: none;
+}
+
+/* BUTTON */
+.btn-formas button{
+    width: 16vw;
+    height: 40px;
+
+    border: none;
+    border-radius: 6px;
+    background-color: var(--green2);
+
+    color: white;
+    font-weight: 700;
+}
+
+
+
+

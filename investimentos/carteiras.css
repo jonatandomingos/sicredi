@@ -1,0 +1,93 @@
+
+/* ---------- CARTEIRAS --------- */
+.carteiras{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- CONTAINER-CARTEIRAS ---- */
+.container-carteiras{
+    display: flex;
+    margin: 0px 50px;
+    height: 350px;
+
+    border-radius: 8px;
+}
+
+/* ---- IMG-CARTEIRAS ----- */
+.img-carteiras{
+    display: flex;
+    flex: 1;
+
+}
+
+/* IMG */
+.img-carteiras img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+}
+/* ---- TEXT-CARTEIRAS ---- */
+.text-carteiras{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    gap: 20px;
+
+
+    flex: 1;
+    background-color: rgb(245, 245, 245);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+
+/* H2 */
+.text-carteiras h2{
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: var(--exo);
+    line-height: 1.625rem;
+}
+
+/* P */
+.text-carteiras p{
+    color: #5A645A;
+    font-family: var(--exo);
+}
+
+/* ---- BTN-CARTEIRA ---- */
+.btn-carteira{
+    display: flex;
+}
+
+/* A */
+.btn-carteira a{
+    text-decoration: none;
+}
+
+/* BUTTON */
+.btn-carteira button{
+    padding: 12px 83px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-family: var(--nunito);
+    background-color: var(--green);
+
+    transition: all .2s ease-in-out;
+}
+
+/* HOVER */
+.btn-carteira button:hover{
+    background-color: rgb(1, 56, 1);
+}
+
+

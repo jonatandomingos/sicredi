@@ -1,0 +1,85 @@
+
+/* -------- LINK-FOOTER ------------ */
+
+.link-footer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* ---- CONTAINER-LINKS --------- */
+.container-links{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 50px 50px;
+
+}
+
+/* ------ LINKS-ONE -------- */
+.links-one{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+}
+/* SPAN */
+.links-one span{
+    border-top: 1px solid var(--green);
+    width: 100%;
+    padding-top: 20px;
+
+
+
+}
+
+/* H3 */
+.links-one h3{
+    color: var(--black);
+    font-size: 18px;
+    font-family: var(--exo);
+}
+
+/* LI */
+.links-one span  li{
+    display: flex;
+    list-style: none;
+
+}
+
+/* ---- LINNK-LI ------- */
+.link-li{
+    display: flex;
+    list-style: none;
+}
+
+/* A */
+.links-one a{
+    text-decoration: none;
+    color: #5A645A;
+
+    font-weight: 600;
+    font-family: var(--nunito);
+
+    position: relative;
+
+    transition: all .2s;
+}
+
+/* AFTER */
+.links-one a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    background-color: #3FA110;
+    width: 0px;
+    height: 1px;
+}
+
+/* HOVER */
+.links-one a:hover::after{
+    width: 100%;
+}
+
+

@@ -1,0 +1,97 @@
+
+/* ------ CONFIRA-DETALHES --------- */
+.confira-detalhes{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+    background-color: #FAFAFA;
+    margin: 0px 50px;
+}
+
+/* ----- TEXT-CONFIRA ------ */
+.text-confira{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* H2 */
+.text-confira h2{
+    padding-top: 50px;
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 3rem;
+    color: var(--black);
+}
+
+/* ---- CONTAINER-CONFIRA ----- */
+.container-confira{
+    display: flex;
+}
+
+/* ---- ITENS-CONFIRA ----- */
+.itens-confira{
+    display: flex;
+    padding-top: 100px;
+}
+
+/* ---- MOSTRAR ---- */
+.mostrar {
+    /* width: 100%; */
+    display: flex;
+    gap: 100px;
+
+}
+
+/* SUMMARY */
+.mostrar summary{
+    font-family: var(--exo);
+}
+
+/* HOVER (SUMMARY) */
+.mostrar summary:hover{
+    color: var(--green);
+}
+
+/* ---- BAIXAR ----- */
+.baixar{
+    display: flex;
+    justify-content: space-between;
+
+    width: 1000px;
+}
+
+/* --- BAIXAR-LINK ---- */
+.baixar-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+/* A */
+.baixar-link a{
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--green);
+    position: relative;
+}
+
+/* AFTER */
+.baixar-link a::after{
+    position: absolute;
+    content: "";
+    left: 0px;
+    bottom: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: var(--green);
+}
+
+/* AFTER (HOVER) */
+.baixar-link a:hover::after{
+    width: 100%;
+}
+

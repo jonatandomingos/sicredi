@@ -1,0 +1,54 @@
+
+
+/* --------- PHONES ---------- */
+.phones{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- CONTAINER-PHONES --------- */
+.container-phones{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+
+    width: 100%;
+    height: 600px;
+    background-color: #F8F9F7;
+}
+
+/* ---- TEXT-PHONES ---- */
+.text-phones{
+    display: flex;
+    flex-direction: column;
+}
+
+/* H2 */
+.text-phones h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+}
+
+/* ---- PHONES-SCREDI ---- */
+.phones-sicredi{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+/* SPAN */
+.phones-sicredi span{
+    color: var(--black);
+    font-weight: 700;
+    font-family: var(--exo);
+}
+
+/* P */
+.phones-sicredi p{
+    font-size: 1rem;
+    font-family: var(--nunito);
+}
+

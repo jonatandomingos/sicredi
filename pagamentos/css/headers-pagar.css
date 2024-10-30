@@ -1,0 +1,56 @@
+
+/* ----------------- HEADERS-PAGAR -------------- */
+.headers-pagar{
+    display: flex;
+
+}
+
+/* ---- LINKS-HEADERS ---- */
+.links-headers{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0px 50px;
+    height: 300px;
+    width: 100%;
+
+}
+
+/* A */
+.links-headers a{
+    font-family: var(--exo);
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--green2);
+
+    position: relative;
+
+    transition: all .5s;
+}
+
+/* AFTER */
+.links-headers a::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 1px;
+    background-color: var(--green2);
+}
+
+/* HOVER (AFTER) */
+.links-headers a:hover::after{
+    width: 100%;
+}
+
+/* SPAN */
+.links-headers span{
+    font-size: 14px;
+    color: #5A645A;
+    font-weight: 400;
+    font-family: var(--nunito);
+}
+
+

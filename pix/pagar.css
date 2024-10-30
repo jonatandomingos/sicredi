@@ -1,0 +1,68 @@
+
+/* ------- PAGAR ----- */
+.pagar{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- CONTAINER-PAGAR ---- */
+.container-pagar{
+    display: flex;
+    height: 400px;
+    margin: 0px 50px;
+   
+}
+
+/* ---- TEXT-PAGAR ---- */
+.text-pagar{
+    flex: 1;
+    background-color: #F8F9F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+/* H2 */
+.text-pagar h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+/* H5 */
+.text-pagar h5{
+    font-style: normal;
+    font-weight: 400;
+    font-family: var(--exo);
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+/*---- IMG-PAGAR ---- */
+.img-pagar{
+    flex: 1;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* IMG */
+.img-pagar img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+
+

@@ -1,0 +1,142 @@
+
+
+/* -------- FINANCEIROS -------- */
+.financeiros{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+
+    width: 100%;
+
+}
+
+/* ---- CONTAINER-FINANCAS ------- */
+.container-financas{
+    display: flex;
+
+    width: 100%;
+    padding: 0px 100px;
+}
+
+/* ---- TEXT-FINANCEIROS -------- */
+.text-financeiros{
+   width: 400px;
+   height: 400px;
+   padding-right: 100px;
+   flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F9F7;
+
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+
+/* H2 */
+.text-financeiros h2{
+    font-size: 2.5rem;
+    padding: 50px 0px 20px 50px;
+
+    color: var(--black);
+    font-family: var(--exo);
+    
+}
+/* --- IMG-FINANCAS ----- */
+.img-financas{
+    flex: 1;
+
+
+}
+
+/* IMG */
+.img-financas img{
+    object-fit: cover;
+    height: 397.34px;
+    /* width: 348.97px; */
+
+}
+
+
+/* ----- SABER ------ */
+.saber{
+    display: flex;
+    padding-left: 50px;
+}
+
+/* BUTTON */
+.saber button{
+    border: none;
+    border-radius: 4px;
+    width: 16vw;
+    height: 40px;
+    background-color: var(--green2);
+}
+/* SPAN */
+.saber button span{
+    color: white;
+    font-weight: 600;
+}
+
+/* ------ APLICATION -------- */
+.aplication{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    
+}
+
+/* ---- ITENS-APLICATION ------- */
+.itens-aplication{
+    position: relative;
+    /* POSITION RELATIVE */
+    
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 10px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.14);
+}
+
+/* IMG */
+.itens-aplication img{
+    width: 50px;
+    height: 50px;
+}
+
+/* A */
+.itens-aplication a{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--black);
+    font-family: var(--exo);
+}
+
+/* HOVER */
+.itens-aplication a:hover{
+    text-decoration: underline;
+}
+/* P */
+.itens-aplication p{
+    width: 250px;
+}
+/*------ RIGTH -------- (POSITION: ABSOLUTE)*/
+.right{
+    position: absolute;
+    left: 220px;
+    top: 10px;
+}
+
+/* BUTTON */
+.right button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+

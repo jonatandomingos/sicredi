@@ -1,0 +1,123 @@
+
+/* ----------- DIVERSIDADE --------- */
+.diversidade{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+/* ---- TEXT-DIVERSIDADE ----- */
+.text-diversidade{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+/* H2 */
+.text-diversidade h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+/* --CONTAINER-DIVER ---- */
+.container-diver{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* --- CONTAINER-DIVER2 ---- */
+.container-diver2{
+    display: flex;
+    gap: 40px;
+}
+
+/* ---- ITENS-DIVERSIDADE ---- */
+.itens-diversidade{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+    width: 400px;
+    height: 350px;
+    background-color: rgb(248, 249, 247);
+    border-radius: 8px;
+
+    padding: 20px;
+    margin-top: 100px;
+}
+
+/* A */
+.itens-diversidade a{
+    text-decoration: none;
+}
+
+/* IMG */
+.itens-diversidade img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+/* H3 */
+.itens-diversidade h3{
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-family: var(--exo) !important;
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+    color: var(--black);
+    padding-block: 20px;
+}
+
+/* P */
+.itens-diversidade p{
+    color: #5A645A !important;
+    font-family: var(--nunito);
+}
+
+/*---- LINK-DIVER ---- */
+.link-diver{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* A */
+.link-diver a{
+    text-decoration: none;
+    color: var(--green2);
+    font-weight: 500;
+
+    position: relative;
+    transition: all 2.s;
+}
+
+/* AFTER */
+.link-diver a::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 1px;
+    background-color: var(--green2);
+}
+
+/* HOVER (AFTER) */
+.link-diver a:hover::after{
+    width: 100%;
+}
+
+
+
+
+
+
+
+

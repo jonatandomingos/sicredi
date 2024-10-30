@@ -1,0 +1,123 @@
+
+/* ------------- TIPOS-CARTAO --------- */
+.tipos-cartao{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- TEXT-TIPOS ---- */
+.text-tipos{
+    display: flex;
+    padding-left: 50px;
+}
+
+/* H2 */
+.text-tipos h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+/* ---- CONTAINER-TIPOS ---- */
+.container-tipos{
+    display: flex;
+    margin: 20px 50px;
+    height: 400px;
+
+    gap: 40px;
+    
+}
+
+/* ---- ITENS-TIPOS ---- */
+.itens-tipos{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: rgb(11, 74, 31);
+    border-radius: 6px;
+}
+
+/* A */
+.itens-tipos a{
+    text-decoration: none;
+}
+
+/* ---- TIPOS-IMG ---- */
+.tipos-img{
+    display: flex;
+}
+
+/* IMG */
+.tipos-img img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+/* ----- TEXTS ----- */
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    color: white;
+}
+
+/* H3 */
+.texts h3{
+    font-size: 1.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+}
+
+/* P */
+.texts p{
+    font-family: var(--nunito);
+}
+
+/* ---- LINK-CONFIRA ---- */
+.link-confira{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-inline: 20px;
+}
+
+/* A */
+.link-confira a{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+
+    position: relative;
+    transition: all .3s;
+}
+
+/* AFTER */
+.link-confira a::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 1px;
+    background-color: white;
+}
+
+/* HOVER (AFTER) */
+.link-confira a:hover::after{
+    width: 100%;
+}
+
+
+
+
+
+
+
+

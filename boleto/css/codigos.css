@@ -1,0 +1,65 @@
+
+/* ---------- CODIGOS ------- */
+.codigos{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* ----- CONTAINER-CODIGOS ------ */
+.container-codigos{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+/* ----- TEXT-CODIGOS ------ */
+.text-codigos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+    background-color: #D7E6C8;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+/* H2 */
+.text-codigos h2{
+    font-family: var(--exo);
+    color: #5A645A;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+/* H5 */
+.text-codigos h5{
+    color: #7F7F7F;
+    font-weight: 400;
+    font-family: var(--nunito);
+    line-height: 1.75rem;
+
+}
+
+/* A */
+.text-codigos a{
+    text-decoration: none;
+    color: var(--exo);
+    font-size: 12px;
+    color: var(--green);
+    font-weight: 500;
+}
+
+/* ---- IMG-CODIGOS ------ */
+.img-codigos{
+    display: flex;
+    flex: 1;
+
+}
+
+/* IMG */
+.img-codigos img{
+    width: 100%;
+    object-fit: cover;
+}
+

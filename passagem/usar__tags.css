@@ -1,0 +1,102 @@
+
+/* ---------------- USAR__TAGS ------------------- */
+.usar__tags{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+
+
+}
+
+/* ---- CONTAINER__USAR ----------- */
+.container__usar{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    
+
+}
+
+/* ---- TEXT__USAR ---- */
+.text__usar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 100px;
+    
+    flex: 1;
+    background-color: white;
+}
+
+/* H2 */
+.text__usar h2{
+    width: 350px;
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400px;
+    line-height: 3rem;
+
+}
+
+/* P */
+.text__usar p{
+    font-size: 1rem;
+    font-family: var(--nunito);
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+/* ---- LINK-USAR ---- */
+.link__usar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+/* A */
+.link__usar a{
+    text-decoration: none;
+    color: var(--green2);
+    font-weight: 700;
+    font-family: var(--nunito);
+
+    position: relative;
+    transition: all .5s;
+}
+
+/* AFTER */
+.link__usar a::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 1px;
+    background-color: var(--green2);
+}
+
+/* HOVER (AFTER) */
+.link__usar a:hover::after{
+    width: 100%;
+}
+
+/* ---- IMG-USAR ---- */
+.img__usar{
+    display: flex;
+    flex: 1;
+    background-image: url(https://www.sicredi.com.br/media/produtos/filer_public_thumbnails/filer_public/2024/03/06/onde-usar-tag-de-passagem.png__650x449_subsampling-2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: right;
+    width: 100%;
+    height: auto;
+
+}
+

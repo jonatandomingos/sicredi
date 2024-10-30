@@ -1,0 +1,148 @@
+
+/* ------------ COTACAO ----------- */
+.cotacao{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+
+}
+
+/* ---- CONTAINER-COTACAO ------- */
+.container-cotacao{
+    display: flex;
+    margin: 0px 50px;
+    height: 400px;
+
+}
+
+/* ---- TEXT-COTACAO ---- */
+.text-cotacao{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+/* ---- TEXTOS-COTACAO ---- */
+.textos-cotacao{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+
+}
+
+/* H2 */
+.textos-cotacao h2{
+    font-size: 2.75rem;
+    font-family: var(--exo);
+    line-height: 3rem;
+    font-weight: 300;
+}
+
+/* P */
+.textos-cotacao p{
+    font-size: 1.125rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: var(--black);
+}
+
+/* ---- COTACAO-DOLAR ----- */
+.cotacao-dolar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+
+}
+
+/* ---- CAIXA-DOLAR ---- */
+.caixa-dolar{
+    display: flex;
+    flex-direction: column;
+
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #323C32;
+}
+
+/* ---- DATA-DOLAR ---- */
+.data-dolar{
+    display: flex;
+
+}
+
+/* ---- DOLAR ---- */
+.dolar{
+    display: flex;
+    flex-direction: column;
+}
+
+/* P */
+.dolar p{
+    color: white;
+}
+
+/* SPAN */
+.dolar span{
+    width: 100px;
+    height: 1px;
+    background-color: green;
+}
+
+/* ---- VALOR ---- */
+.valor{
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+/* P */
+.valor p{
+    color: white;
+    font-size: 0.75rem;
+}
+
+/* STRONG */
+.valor strong{
+    color: white;
+
+}
+
+/* ---- TEXTOS-DOLAR ---- */
+.textos-dolar{
+    display: flex;
+    padding-top: 20px;
+}
+
+/* P */
+.textos-dolar p{
+    color: white;
+    font-size: 16px;
+    font-family: var(--nunito);
+    line-height: 20px;
+
+}
+
+/* ---- LINK-HISTORICO ---- */
+.link-historico{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* A */
+.link-historico a{
+    text-decoration: none;
+    font-family: var(--exo);
+    font-size: 16px;
+    color: var(--green);
+}
+

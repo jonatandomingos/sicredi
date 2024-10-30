@@ -1,0 +1,91 @@
+
+/* -------------- PAGAMENTOS ----------- */
+.pagamentos{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- CONTAINER-PAGAR ----- */
+.container-pagar{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 20px;
+
+    height: 620px;
+    width: 100%;
+    background-color: #0B4A1F !important;
+}
+
+/* ---- TEXT-PAGAR ---- */
+.text-pagar{
+    display: flex;
+
+}
+
+/* H2 */
+.text-pagar h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    color: white;
+}
+
+/* ---- TEXTOS-PAGAR ---- */
+.textos-pagar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 75%;
+}
+
+/* P */
+.textos-pagar p{
+    color: white;
+    font-family: var(--nunito);
+}
+
+/* ---- LINK-PAGAR ---- */
+.link-pagar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* LI */
+.link-pagar li{
+    color: white;
+}
+
+/* SPAN */
+.link-pagar li span{
+    color: white;
+    font-family: var(--exo);
+}
+
+/* A */
+.link-pagar li a{
+    text-decoration: none;
+    color: white;
+
+    position: relative;
+    transition: all .4s;
+}
+
+/* AFTER */
+.link-pagar li a::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 1px;
+    background-color: white;
+}
+
+/* HOVER (AFTER) */
+.link-pagar li a:hover::after{
+    width: 100%;
+}

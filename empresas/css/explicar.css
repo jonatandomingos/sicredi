@@ -1,0 +1,130 @@
+
+/* ---------- EXPLICAR ------- */
+.explicar{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ----- CONTAINER-EXPLICAR -------- */
+.container-explicar{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ---- TITLE-EXPLICAR ------- */
+.title-explicar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 50px;
+}
+
+/* H2 */
+.title-explicar h2{
+    font-family: var(--exo);
+    color: var(--black);
+}
+
+/* H3 */
+.title-explicar h3{
+    font-size: 20px;
+    color: #5A645A;
+    width: 300px;
+   font-weight: 400;
+   font-family: var(--exo);
+}
+
+/* ----- BTN-ASSISTIR ------- */
+.btns-assistir{
+    display: flex;
+}
+
+/* BUTTON */
+.btns-assistir button{
+    /* padding: 12px 83px; */
+    width: 250px;
+    height: 50px;
+    background-color: var(--green);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    transition: all .3s;
+}
+
+/* A */
+.btns-assistir button a{
+    text-decoration: none;
+
+    color: white;
+
+    font-family: var(--nunito);
+}
+/* HOVER */
+.btns-assistir button:hover{
+    background-color: rgba(2, 49, 2, 0.904);
+}
+
+/* ----- CONTAINER-VIDEOS ------ */
+.container-videos{
+    display: flex;
+    gap: 50px;
+}
+
+/* ---- ITENS-1 ----- */
+.itens-1 {
+    background-image: url(https://www.sicredi.com.br/media/home/filer_public_thumbnails/filer_public/2024/07/23/beneficios-conta-pj-numa-cooperativa-explica-ai-home-pj-sicredi.png__580x1030_subsampling-2.webp);
+    height: 400px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 8px;
+
+    position: relative;
+}
+
+/* ITENS-2 */
+.itens-2{
+    background-image: url(https://www.sicredi.com.br/media/home/filer_public_thumbnails/filer_public/2024/07/23/qual-maquina-cartoes-ideal-explica-ai-home-pj-sicredi.png__580x1030_subsampling-2.webp);
+}
+
+/* ITENS-3 */
+.itens-3{
+    background-image: url(https://www.sicredi.com.br/media/home/filer_public_thumbnails/filer_public/2024/07/23/por-que-ter-uma-maquina-cartoes-explica-ai-home-pj-sicredi.png__580x1030_subsampling-2.webp);
+}
+
+/* ---- PLAY-VIDEOS ----- */
+.play-videos{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    transition: all .3s;
+   
+   padding: 50px;
+   z-index: 99999;
+}
+
+/* SVG */
+.play-videos svg{
+
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* HOVER */
+.play-videos svg:hover{
+    background-color: green;
+
+}
+
+/* H3 */
+.play-videos h3{
+    font-size: 20px;
+    color: white;
+}
+

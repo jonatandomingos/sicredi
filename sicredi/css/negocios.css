@@ -1,0 +1,68 @@
+
+/* ------------- NEGOCIOS --------- */
+.negocios{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* ----- CONTAINER-NEGOCIOS --------- */
+.container-negocios{
+    display: flex;
+
+   padding-block: 50px;
+   padding-inline: 100px;
+
+    
+}
+
+/* ------ TEXT-NEGOCIOS ------- */
+.text-negocios{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+
+    background-color: #F8F9F7;
+    padding-inline: 2rem;
+    padding-block: 2rem;
+
+
+
+}
+
+/* H2 */
+.text-negocios h2{
+    font-size: 3rem;
+    font-weight: 300;
+    width: 450px;
+}
+
+/* ----- SABER ------ */
+.saber{
+    display: flex;
+}
+
+/* BUTTON */
+.saber button{
+    border: none;
+    border-radius: 4px;
+    width: 16vw;
+    height: 40px;
+    background-color: var(--green2);
+}
+/* SPAN */
+.saber button span{
+    color: white;
+    font-weight: 600;
+}
+
+/* ---- IMG-NEGOCIOS ---- */
+.img-negocio{
+    display: flex;
+}
+
+/* IMG */
+.img-negocio img{
+    border-radius: 4px;
+}

@@ -1,0 +1,150 @@
+
+/* --------------- BENEFICIOS ---------------- */
+.beneficios{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+    padding-top: 100px;
+    
+}
+
+/* ---- BENE-TEXT ---- */
+.bene-text{
+    display: flex;
+    padding-left: 50px;
+}
+
+/* H2 */
+.bene-text h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 3rem;
+    font-style: normal;
+}
+
+/* ---- CONTAINER-BENE ---- */
+.container-bene{
+    display: flex;
+    gap: 40px;
+    margin: 20px 50px;
+    height: 500px;
+
+}
+
+/* ---- ITENS-BENE ---- */
+.itens-bene{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    background-color: #F5F5F5 !important;
+    border-radius: 6px;
+
+    position: relative;
+}
+
+/* A */
+.itens-bene a{
+    text-decoration: none;
+}
+
+/* ---- IMG-ITENS ----- */
+.img-itens{
+    display: flex;
+}
+
+/* IMG */
+.img-itens img{
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+/* ---- DATAS ---- */
+.datas{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* P */
+.datas p{
+    color: #5A645A;
+    font-family: var(--exo);
+}
+
+/* ---- CONTEUDO ---- */
+.conteudo span{
+    font-size: 12px;
+    padding: 6px;
+    background-color: var(--green);
+    border: 6px;
+    border-radius: 2px;
+
+    color: white;
+    font-family: var(--exo);
+    text-transform: uppercase;
+}
+
+/* ---- TEXTOS-ITENS ---- */
+.textos-itens{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding-inline: 20px;
+}
+
+/* H3 */
+.textos-itens h3{
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-family: var(--exo) !important;
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+    color: var(--black);
+}
+
+/* P */
+.textos-itens p{
+    color: #5A645A;
+}
+
+/* ---- LINKS-LENDOS ---- */
+.links-lendos{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+/* A */
+.links-lendos a{
+    text-decoration: none;
+    color: var(--green);
+    font-weight: 600;
+    font-family: var(--exo);
+
+    transition: all .3s;
+}
+
+/* AFTER */
+.links-lendos a::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 1px;
+    background-color: var(--green);
+}
+
+/* HOVER (AFTER) */
+.links-lendos a:hover::after{
+    width: 100%;
+}
+

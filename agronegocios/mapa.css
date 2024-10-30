@@ -1,0 +1,84 @@
+
+
+
+
+/*  -------- MAPA ----- */
+.mapa{
+    display: flex;
+    margin: 0px 50px;
+    
+}
+
+/* ---- LOCAL --------- */
+.local{
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 50px 0px 0px 50px;
+    background-color: #F8F9F7;
+
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+
+.local h2{
+    color: var(--black);
+    font-family: var(--exo);
+}
+/* P */
+.local p{
+    font-size: 1rem;
+    width: 450px;
+    color: var(--black);
+    font-family: var(--nunito);
+}
+
+/* A */
+.local p a{
+    text-decoration: none;
+    color: var(--green);
+    font-weight: bold;
+
+    transition: .4s;
+}
+/* HOVER */
+.local p a:hover{
+    text-decoration: underline;
+}
+
+/* --- IMG-MAPA ------ */
+.img-mapa{
+    flex: 1;
+    background-color: blue;
+ 
+}
+
+/* IMG */
+.img-mapa img{
+    width: 100%;
+}
+
+/* ----- SABER ------ */
+.saber{
+    display: flex;
+    padding-left: 50px;
+}
+
+/* BUTTON */
+.saber button{
+    border: none;
+    border-radius: 4px;
+    width: 16vw;
+    height: 40px;
+    background-color: var(--green2);
+}
+/* SPAN */
+.saber button span{
+    color: white;
+    font-weight: 600;
+}
+

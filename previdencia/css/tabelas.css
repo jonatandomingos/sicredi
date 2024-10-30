@@ -1,0 +1,86 @@
+
+/* ---------------- TABELAS ------------------ */
+.tabelas{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+/* ---- CONTAINER-TABELAS ---- */
+.container-tabelas{
+    display: flex;
+    margin: 40px 50px;
+    height: 400px;
+    border-radius: 6px;
+}
+
+/* ---- TEXT-TABELAS ---- */
+.text-tabelas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+    background-color: #F8F9F7;
+    padding: 80px 0px 0px 100px;
+
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+/* H2 */
+.text-tabelas h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 3rem;
+    font-style: italic;
+}
+
+/* P */
+.text-tabelas p{
+    font-size: 1rem;
+    font-family: var(--nunito);
+    color: var(--black);
+    font-weight: 400;
+}
+
+/* ---- BTN-TABELAS ---- */
+.btn-tabela{
+    display: flex;
+}
+
+/* A */
+.btn-tabela a{
+    text-decoration: none;
+}
+
+/* BUTTON */
+.btn-tabela a button{
+    height: 40px;
+    width: 16vw;
+    border: none;
+    background-color: var(--green2);
+    border-radius: 4px;
+}
+
+/* SPAN */
+.btn-tabela button span{
+    color: white;
+    font-weight: 500;
+}
+
+/* ---- IMG-TABELAS ----*/
+.img-tabelas{
+    display: flex;
+    flex: 1;
+}
+
+/* IMG */
+.img-tabelas img{
+    width: 100%;
+    object-fit: fill;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+

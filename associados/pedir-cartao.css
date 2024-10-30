@@ -1,0 +1,90 @@
+
+
+/* -------------- PEDIR-CARTAO ---------- */
+.pedir-cartao{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- CONTAINER-CARTAO ------ */
+.container-cartao{
+    display: flex;
+
+    margin: 0px 50px;
+
+    border-radius: 5px;
+}
+
+/* --- IMAGENS-CARTAO ---- */
+.imagens-cartao{
+    display: flex;
+    flex: 1;
+
+    border-radius: 5px;
+}
+
+/* IMG */
+.imagens-cartao img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+/* ---- TEXT-CARTAO ----- */
+.text-cartao{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex: 1;
+
+    background-color: rgb(245, 245, 245);
+    padding: 40px;
+}
+
+/* H2 */
+.text-cartao h2{
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-family: var(--exo)!important;
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+}
+
+/* ---- BTN-PEDIR ---- */
+.btn-pedir{
+    display: flex;
+}
+
+/* A */
+.btn-pedir a{
+    text-decoration: none;
+}
+
+/* BUTTON */
+.btn-pedir button{
+    padding: 12px 83px;
+    border: none;
+    background-color: var(--green);
+    border-radius: 8px;
+
+    color: white;
+    font-weight: bold;
+    font-family: var(--nunito);
+    font-size: 16px;
+
+    transition: all .5s;
+
+
+}
+/* HOVER (BUTTON) */
+.btn-pedir button:hover{
+    background-color: rgb(3, 66, 3);
+}
+
+

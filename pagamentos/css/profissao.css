@@ -1,0 +1,102 @@
+
+/* ------------------ PROFISSAO ------------------ */
+.profissao{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- CONTAINER-PROF ----- */
+.container-prof{
+    display: flex;
+    width: 100%;
+    height: 500px;
+
+}
+
+/* ---- TEXT-PROF ---- */
+.text-prof{
+    display: flex;
+    
+    gap: 20px;
+    flex: 1;
+    background-color: white;
+    
+}
+
+/* --- TEXTOS-PROF ---- */
+.textos-prof{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   justify-content: center;
+   padding-left: 100px;
+    
+}
+
+/* H2 */
+.textos-prof h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+
+    width: 400px;
+}
+
+/* P */
+.textos-prof p{
+    font-size: 1rem;
+    font-family: var(--nunito);
+
+    width: 400px;
+}
+
+/* --- LINK-PROF ---- */
+.link-prof{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* A */
+.link-prof a{
+    text-decoration: none;
+
+    color: var(--green2);
+    font-weight: 500;
+    position: relative;
+
+    transition: all .5s;
+}
+
+/* AFTER */
+.link-prof a::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 1px;
+    background-color: var(--green2);
+}
+
+/* HOVER (AFTER) */
+.link-prof a:hover::after{
+    width: 100%;
+}
+
+
+/* ---- IMG-PROF ---- */
+.img-prof{
+    display: flex;
+    flex: 1;
+    background-image: url(https://www.sicredi.com.br/media/produtos/filer_public_thumbnails/filer_public/2022/11/03/voce_e_profissional_autonomo_e_procura_solucoes_de_pagamentos_-_pagamentos_para_voce_-_pagamentos_-_sicredi.jpg__655x450_subsampling-2.webp);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+

@@ -1,0 +1,125 @@
+
+/* --------------- SOLUCOES-CONTAINER ----------------- */
+.solucoes-consorcios{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- SOLUCOES-TEXT ----- */
+.solucoes-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding-left: 50px;
+}
+
+/* SPAN */
+.solucoes-text span{
+    font-size: 0.75rem;
+    font-family: var(--exo);
+
+}
+/* H2 */
+.solucoes-text h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 3rem;
+    font-style: normal;
+}
+
+/* P */
+.solucoes-text p{
+    font-size: 1.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    color: var(--black);
+    line-height: 2rem;
+}
+
+/*---- SOLUCOES-CONTAINER ----- */
+.solucoes-container{
+    display: flex;
+    gap: 40px;
+    margin: 0px 50px;
+    height: 300px;
+
+    margin-bottom: 40px;
+    
+
+}
+
+/*----- ITENS-SOLUCOES ---- */
+.solucoes-itens{
+    display: flex;
+    gap: 80px;
+    width: 50%;
+    height: 300px;
+    background-color: white;
+
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.14);
+
+    padding: 40px;
+    border-radius: 6px;
+
+    position: relative;
+}
+
+/* A */
+.solucoes-itens a{
+    text-decoration: none;
+    display: flex;
+    gap: 40px;
+}
+
+/* ---- SOLUCOES-IMG ---- */
+.solucoes-img{
+    display: flex;
+}
+
+/* IMG */
+.solucoes-img img{
+    width: 200px;
+    height: 200px;
+}
+
+/* ---- SOLUCOES-TEXTOS ---- */
+.solucoes-textos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* H5 */
+.solucoes-textos h5{
+    color: var(--black);
+    font-weight: 400;
+    font-family: var(--exo);
+}
+
+/* ---TODO-DIREITA ---- */
+.topo-direta{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 580px;
+}
+
+/* H3 */
+.solucoes-textos h3{
+    font-size: 1.5rem;
+    font-family: var(--exo);
+    color: var(--black);
+    padding-top: 50px;
+}
+
+/* P */
+.solucoes-textos p{
+    color: var(--black);
+    font-weight: 300;
+    font-family: var(--nunito);
+}
+

@@ -1,0 +1,8 @@
+
+/* --------- HEADERS-BOLETO ------ */
+.headers-boleto{
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid var(--gray);
+    margin: 0px 100px;
+}

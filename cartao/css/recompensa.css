@@ -1,0 +1,107 @@
+
+/* ----------- RECOMPENSA ---------------- */
+.recompensa{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 100px;
+
+}
+
+/* ---- CONTAINER-RECOM ---- */
+.container-recom{
+    display: flex;
+    margin: 0px 50px;
+    height: 700px;
+
+}
+
+/* ---- TEXT-RECOM ---- */
+.text-recom{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: transparent;
+}
+
+/* ---- TITLES ---- */
+.titles{
+    display: flex;
+}
+
+/* H2 */
+.titles h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+
+}
+
+/* -- CONTENT ---- */
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ---- ITENS-RECOM ---- */
+.itens-recom{
+    display: flex;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+/* IMG */
+.itens-recom img{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #ECF6E7;
+}
+
+/* P */
+.itens-recom p{
+    font-size: 1rem;
+    color: #5A645A;
+    font-family: var(--nunito);
+
+    width: 470px;
+}
+
+/* ---- LINKS-RECOM ---- */
+.links-recom{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* A */
+.links-recom a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+
+    transition: all .3s;
+}
+
+/* HOVER */
+.links-recom a:hover{
+    color: var(--green);
+}
+
+/* ---- IMG-RECOM ---- */
+.img-recom{
+    display: flex;
+    flex: 1;
+    border-radius: 8px;
+    
+}
+
+/* IMG */
+.img-recom img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    
+}
+

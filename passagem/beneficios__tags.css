@@ -1,0 +1,53 @@
+
+/* ---------------- BENEFICIOS__TAGS -------------------- */
+.beneficios__tags{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 150px;
+}
+
+/* ---- CONTAINER-BENE_TAGS ----- */
+.container-bene__tags{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+    height: 300px;
+
+}
+
+/* ---- ITENS__TAGS -------- */
+.itens__tags{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 280px;
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.14);
+}
+
+/* IMG */
+.itens__tags img{
+    width: 64px;
+    height: 64px;
+}
+
+/* H2 */
+.itens__tags h2{
+    font-size: 1.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 2rem;
+    font-style: normal;
+}
+
+/* P */
+.itens__tags p{
+    color: var(--black);
+    font-family: var(--nunito);
+}
+

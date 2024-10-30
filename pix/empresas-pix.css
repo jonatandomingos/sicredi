@@ -1,0 +1,86 @@
+
+/* ------ EMPRESAS-PIX ------- */
+.empresas-pix{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+    margin-top: 50px;
+
+
+}
+
+/* ---- CONTAINER-EMPRE-PIX ----- */
+.container-empre-pix{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+/* ---- IMG-EMPRESA1 ----- */
+.img-empresa1{
+    display: flex;
+    flex: 1;
+
+}
+
+/* ----- TEXT-EMP-PIX ----- */
+.text-emp-pix{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    flex: 1;
+}
+
+/* H2 */
+.text-emp-pix h2{
+    font-size: 2rem;
+    font-family: var(--exo);
+
+}
+
+/* P */
+.text-emp-pix p{
+    text-align: center;
+    width: 450px;
+
+    font-size: 16px;
+    font-family: var(--nunito);
+}
+
+/* ---- LINK-PIX ---- */
+.link-pix{
+    display: flex;
+    align-items: center;
+}
+
+/* A */
+.link-pix a{
+    text-decoration: none;
+    color: var(--green2);
+    font-weight: 500;
+
+    position: relative;
+
+    transition: all .2s;
+}
+
+/* AFTER  */
+.link-pix a::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--green2);
+}
+
+/* HOVER (AFTER) */
+.link-pix a:hover::after{
+    width: 100%;
+}
+

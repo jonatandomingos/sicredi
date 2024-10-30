@@ -1,0 +1,110 @@
+
+
+
+
+
+
+
+
+
+
+
+/* --------- PERGUNTAS ------------- */
+.perguntas{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- TEXT-PERGUNTAS ----- */
+.text-perguntas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 50px;
+}
+
+/* H2 */
+.text-perguntas h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+/* P */
+.text-perguntas p{
+    font-family: var(--nunito);
+    font-size: 1rem;
+}
+
+/* ---- CONTAINER-PERGUNTAS ------ */
+.container-perguntas{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* ---- ITENS-PERGUNTAS ---- */
+.itens-perguntas{
+    display: flex;
+    align-items: center;
+    margin: 0px 50px;
+    height: 100px;
+    background-color: white;
+    border-top: 1px solid rgba(0, 0, 0, .125);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+/* --- ITENSPERGUNTAS1 ---- */
+.itens-perguntas1{
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    border-top: none;
+}
+
+/* SUMMARY */
+.itens-perguntas summary{
+    font-family: var(--exo);
+}
+
+/* ---- TEXTO-MOSTRAR ---- */
+.texto-mostrar{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* P */
+.texto-mostrar p{
+    font-family: var(--exo);
+}
+
+/* A */
+.texto-mostrar p a{
+    text-decoration: none;
+    color: var(--green);
+}
+
+/* ---- LINK-CONFERIR ---- */
+.link-conferir{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* SPAN */
+.link-conferir span{
+    font-size: 1.1rem;
+    color: var(--green);
+    font-family: var(--exo);
+}
+
+/* A */
+.link-conferir a{
+    text-decoration: none;
+}
+
+

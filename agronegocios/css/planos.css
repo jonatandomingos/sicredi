@@ -1,0 +1,84 @@
+
+/* ---------- PLANOS -------- */
+.planos{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- CONTAINER-PLANOS --------- */
+.container-planos{
+    display: flex;
+    margin-inline: 50px;
+
+    height: 400px;
+
+    border-radius: 8px;
+ 
+}
+
+/* ---- TEXT-PLANOS -------- */
+.text-planos{
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+
+    padding: 20px;
+    padding-left: 100px;
+    background-color: #F8F9F7;
+}
+
+
+/* H2 */
+.text-planos h2{
+    color: var(--black);
+    font-family: var(--exo);
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+/* P */
+.text-planos p{
+    font-family: var(--nunito);
+
+}
+
+/* --- BTN-PLANO ------- */
+.btn-plano{
+    display: flex;
+}
+
+/* BUTTON */
+.btn-plano button{
+    border: none;
+    width: 16vw;
+    height: 40px;
+    border-radius: 4px;
+    background-color: var(--green);
+}
+/* A */
+.btn-plano button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+/* ---- IMG-PLANOS ------ */
+.img-planos{
+    flex: 1;
+
+}
+
+/* IMG */
+.img-planos img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+

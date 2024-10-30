@@ -1,0 +1,67 @@
+
+/* ---------------- OPCOES-PAGAR ----------- */
+.opcoes-pagar{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- TEXT-PAY ---- */
+.text-pay{
+    display: flex;
+    padding-left: 50px;
+}
+
+/* H2 */
+.text-pay h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+/* ---- CONTAINER-PLAY ---- */
+.contaiiner-pay{
+    display: flex;
+    gap: 40px;
+    margin: 20px 50px;
+    height: 500px;
+
+}
+
+/* ---- ITENS-PAY ---- */
+.itens-pay{
+    display: flex;
+    height: 500px;
+    width: 400px;
+
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.14);
+
+}
+
+/* A */
+.itens-pay a{
+    text-decoration: none;
+}
+
+/* IMG */
+.itens-pay img{
+    border-radius: 50%;
+}
+
+/* H3 */
+.itens-pay h3{
+    font-size: 1.5rem;
+    font-family: var(--exo);
+    color: var(--black);
+}
+/* P */
+.itens-pay p{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--black);
+    line-height: 1.5rem;
+}

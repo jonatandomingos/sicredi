@@ -1,0 +1,58 @@
+
+/* ------- PAGAR-SEGURO ------- */
+.pagar-seguro{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- CONTAINER-SEGURO ------- */
+.container-seguro{
+    display: flex;
+    height: 500px;
+    width: 100%;
+
+}
+
+/* ---- TEXT-SEGURO ---- */
+.text-seguro{
+    flex: 1;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* H2 */
+.text-seguro h2,
+.text-pratico h2{
+    font-family: var(--exo);
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+/* ---- TEXT-PRATICO ---- */
+.text-pratico{
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* P */
+.text-pratico p{
+    font-size: 1rem;
+    font-family: var(--nunito);
+    text-align: left;
+    width: 500px;
+
+}
+
+
+
+

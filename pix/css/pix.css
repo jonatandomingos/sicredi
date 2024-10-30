@@ -1,0 +1,59 @@
+
+/* roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* exo */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* nunito */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+@import url(/pix/headers.css);
+@import url(/pix/paginas.css);
+@import url(/pix/pagar.css);
+@import url(/pix/cadastrar.css);
+@import url(/pix/pagar-seguro.css);
+@import url(/pix/beneficios-pix.css);
+@import url(/pix/tipos-pix.css);
+@import url(/pix/funcional.css);
+@import url(/pix/empresas-pix.css);
+@import url(/pix/formulation.css);
+@import url(/pix/aplicativos.css);
+@import url(/pix/duvidas.css);
+@import url(/pix/funciona-detalhes.css);
+@import url(/pix/link-footer.css);
+@import url(/pix/contatos.css);
+
+
+:root{
+    --green: #33820D;
+    --gray: #6c757d;
+
+    --black: #323C32;
+    --green2: #3FA110;
+
+    --nunito: "Nunito", sans-serif;
+    --exo: "Exo 2", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+
+    overflow-x: hidden;
+
+    font-family: "Roboto", sans-serif;
+
+
+}

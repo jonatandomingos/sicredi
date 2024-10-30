@@ -1,0 +1,112 @@
+
+/* ---------- PERFIL ------- */
+.perfil{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- TEXT-PERFIL ----- */
+.text-perfil{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding-left: 50px;
+
+}
+
+/* H2 */
+.text-perfil h2{
+    font-size: 2.5rem;
+    font-family: var(--exo);
+    line-height: 3rem;
+    font-weight: 400;
+
+}
+/* P */
+.text-perfil p{
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--exo);
+}
+
+/* --- CONTAINER-PERFIL ---- */
+.container-perfil{
+    display: flex;
+    gap: 40px;
+    height: 300px;
+    margin: 0px 50px;
+
+}
+/* ---- ITENS-PERFIL ---- */
+.itens-perfil{
+    display: flex;
+
+    gap: 20px;
+    width: 580px;
+    height: 300px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.14);
+
+    padding: 20px;
+
+    position: relative;
+}
+
+/* A */
+.itens-perfil a{
+    text-decoration: none;
+}
+
+/* ---- CONTAINER-PERFIL ---- */
+.container-itens{
+    display: flex;
+    gap: 20px;
+}
+
+/* --- DIREITO ----------- */
+.direito{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+}
+
+/* BUTTON */
+.direito button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+/* --- INFO-PERFIL ---- */
+.info-perfil{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* H5 */
+.info-perfil h5{
+    font-family: var(--exo);
+    color: var(--black);
+}
+
+/* H3 */
+.info-perfil h3{
+    font-family: var(--exo);
+    color: var(--black);
+}
+
+/* P */
+.info-perfil p{
+    color: var(--black);
+    font-weight: 300;
+    font-family: var(--nunito);
+}
+

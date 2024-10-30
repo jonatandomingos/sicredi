@@ -1,0 +1,172 @@
+
+/* ------------- BENEFICIOS ------------ */
+
+.beneficios{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ---- TEXT-BENEFICIOS ------- */
+.text-beneficios{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 50px;
+}
+
+/* H2 */
+.text-beneficios h2{
+    font-family: var(--exo);
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 3rem;
+}
+/* P */
+.text-beneficios p{
+    font-size: 1rem;
+    font-family: var(--nunito);
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+/* --- CONTAINER-BENEFICIOS ------ */
+.container-beneficios{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 50px;
+}
+
+/* ---- ITENS-BENEFICIOS ----- */
+.itens-beneficios{
+    display: flex;
+    
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+    padding: 20px;
+
+    width: 400px;
+}
+
+/* --- CARTAO ----- */
+.cartao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+/* H4 */
+.cartao h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: var(--exo);
+}
+
+/* A */
+.cartao a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+
+    width: 166px;
+    height: 40px;
+    background-color: var(--green);
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+
+    transition: all .3s;
+}
+
+/* HOVER */
+.cartao a:hover{
+    background-color: green;
+}
+
+/* ---- CONTAINER-SEGURO ----- */
+.container-seguro{
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+/* --- IMG-SEGURO ---- */
+.img-seguro{
+    display: flex;
+}
+
+/* IMG */
+.img-seguro img{
+    width: 20px;
+    height: 20px;
+}
+
+/* ---- SEGURO ---- */
+.seguro{
+    display: flex;
+    flex-direction: column;
+}
+
+/* H5 */
+.seguro h5{
+    font-size: 14px;
+    font-family: var(--nunito);
+    line-height: 20px;
+    color: var(--black);
+    font-weight: 400;
+}
+
+/* P */
+.seguro p{
+    font-family: var(--nunito);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+
+}
+
+/* ---- LINK-CONHECER ----- */
+.link-expandir{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+}
+
+/* A */
+.link-expandir a{
+    text-decoration: none;
+    color: var(--green);
+    font-weight: 500;
+
+    position: relative;
+
+    transition: all .3s;
+}
+
+/* AFTER */
+.link-expandir a::after{
+    position: absolute;
+    content: "";
+    left: 0px;
+    bottom: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: var(--green2);
+}
+
+/* HOVER (AFTER) */
+.link-expandir a:hover::after{
+    width: 100%;
+}
+
